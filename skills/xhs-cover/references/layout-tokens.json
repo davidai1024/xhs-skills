@@ -1,0 +1,164 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "marginX": 80,
+    "grid": 8
+  },
+  "font": {
+    "family": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", sans-serif",
+    "fallbackPath": "assets/fonts/NotoSansSC-VF.ttf",
+    "fallbackFamily": "Noto Sans SC"
+  },
+  "styles": {
+    "type": {
+      "size": 28,
+      "weight": 500,
+      "lineHeight": 40
+    },
+    "headline": {
+      "size": 90,
+      "weight": 600,
+      "lineHeight": 108
+    },
+    "headline3": {
+      "size": 80,
+      "weight": 600,
+      "lineHeight": 96
+    },
+    "subtitle": {
+      "size": 36,
+      "weight": 400,
+      "lineHeight": 48
+    },
+    "footer": {
+      "size": 22,
+      "weight": 400,
+      "lineHeight": 32
+    },
+    "series": {
+      "size": 24,
+      "weight": 400,
+      "lineHeight": 32
+    }
+  },
+  "header": {
+    "y": 80,
+    "height": 40,
+    "maxWidth": 320,
+    "logoSize": 40,
+    "gap": 12
+  },
+  "footer": {
+    "x": 80,
+    "y": 1368,
+    "width": 920,
+    "height": 32,
+    "text": "关注职场咸鱼",
+    "avatarPath": "assets/zhichang-xianyu-avatar.png",
+    "avatarSize": 32,
+    "gap": 12,
+    "bottomSpace": 40,
+    "align": "center"
+  },
+  "presets": {
+    "C2": {
+      "align": "center",
+      "headlineStyle": "headline",
+      "headline": {
+        "x": 80,
+        "y": 240,
+        "width": 920,
+        "height": 216
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 488,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 640,
+        "width": 920,
+        "height": 640
+      }
+    },
+    "L2": {
+      "align": "left",
+      "headlineStyle": "headline",
+      "headline": {
+        "x": 80,
+        "y": 240,
+        "width": 920,
+        "height": 216
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 488,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 640,
+        "width": 920,
+        "height": 640
+      }
+    },
+    "L3": {
+      "align": "left",
+      "headlineStyle": "headline3",
+      "headline": {
+        "x": 80,
+        "y": 216,
+        "width": 920,
+        "height": 288
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 536,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 648,
+        "width": 920,
+        "height": 632
+      }
+    },
+    "S1": {
+      "align": "center",
+      "headlineStyle": "headline",
+      "headline": {
+        "x": 80,
+        "y": 240,
+        "width": 920,
+        "height": 108
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 380,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 536,
+        "width": 920,
+        "height": 744
+      }
+    }
+  },
+  "theme": "apple-editorial",
+  "colors": {
+    "background": "#FFFFFF",
+    "headline": "#1D1D1F",
+    "subtitle": "#6E6E73",
+    "type": "#6E6E73",
+    "panel": "#F5F5F7",
+    "accent": "#0071E3",
+    "footer": "#86868B"
+  }
+}

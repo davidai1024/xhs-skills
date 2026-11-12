@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "kind": "image",
+  "galleryKind": "imagegen",
+  "reference": "assets/preview-apple.png",
+  "preview": "assets/preview-apple.png"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书·标题"
+  short_description: "从真实内容中找观看理由，写自然、具体的小红书或视频标题，并推荐一个"
+  default_prompt: "用 $xhs-title 为这篇内容起标题，先找真实看点，给三个不同角度并推荐一个。"

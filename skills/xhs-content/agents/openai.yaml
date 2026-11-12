@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书·正文"
+  short_description: "结合封面、配图、标题和标签写小红书正文，先看图核对，再补充有用信息并自查"
+  default_prompt: "用 $xhs-content，根据这组封面、配图、已选标题和 tag，写一版可直接发布的小红书正文。"
