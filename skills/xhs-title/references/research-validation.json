@@ -1,0 +1,11 @@
+{
+  "all_5876_texts_accounted_for": true,
+  "missing_variant_reviews": 0,
+  "independent_sql_type_and_mechanism_cell_counts": "passed",
+  "semantic_rows": 5876,
+  "original_new_rows": 4691,
+  "newly_collected_rows": 139,
+  "no_sampling": true,
+  "numeric_causality_not_inferred": true,
+  "global_collection_complete": false
+}

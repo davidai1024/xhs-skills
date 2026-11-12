@@ -1,0 +1,1546 @@
+{
+  "as_of": "2026-11-12",
+  "records": 5876,
+  "original_new_records_semantically_analysed": 4691,
+  "original_prior_records_reconciled": 1046,
+  "newly_collected_records": 139,
+  "all_records_semantically_analysed": 5876,
+  "sampling": false,
+  "unreviewed_records": 0,
+  "coding_method": "模型逐题解释；等价文字逐项核对差异并继承；非关键词自动分类，非人工专家复核",
+  "overall": {
+    "records": 5876,
+    "content_types": {
+      "操作教程与实用方法": 366,
+      "知识解释": 638,
+      "纪实探访与人物访谈": 556,
+      "实验与亲身体验": 209,
+      "组织与创作幕后": 641,
+      "问答与互动": 87,
+      "视觉或声音作品": 324,
+      "公告活动与服务": 230,
+      "产品评测与器材选择": 1153,
+      "商品课程推广与展示": 829,
+      "观点与创作讨论": 78,
+      "社交与生活片段": 206,
+      "挑战与综艺": 382,
+      "剧情与概念短片": 87,
+      "文字不足以判定": 90
+    },
+    "mechanisms": {
+      "方法与过程": 612,
+      "新奇对象或新视角": 781,
+      "真实行动与完成成果": 604,
+      "判断比较与选择": 1111,
+      "身份进入与亲历权限": 496,
+      "程度规模与极限": 182,
+      "具体用途与受益": 603,
+      "情绪反应与感受": 187,
+      "互动与答疑": 156,
+      "直述命名或对象留白": 527,
+      "规则条件与输赢": 357,
+      "关系冲突与反常事件": 87,
+      "原因与原理": 110,
+      "优惠发售与时限": 63
+    },
+    "self_sufficiency": {
+      "2": 5035,
+      "1": 689,
+      "0": 152
+    },
+    "strata": {
+      "捕获标题或短文案": 5798,
+      "长发布文案": 72,
+      "空白或占位": 6
+    }
+  },
+  "cells": [
+    {
+      "brand": "一步一部Rolling",
+      "platform": "bilibili",
+      "records": 17,
+      "content_types": {
+        "剧情与概念短片": 16,
+        "公告活动与服务": 1
+      },
+      "mechanisms": {
+        "直述命名或对象留白": 4,
+        "关系冲突与反常事件": 11,
+        "具体用途与受益": 1,
+        "判断比较与选择": 1
+      },
+      "self_sufficiency": {
+        "1": 7,
+        "2": 10
+      },
+      "strata": {
+        "捕获标题或短文案": 17
+      }
+    },
+    {
+      "brand": "一步一部Rolling",
+      "platform": "douyin",
+      "records": 19,
+      "content_types": {
+        "剧情与概念短片": 16,
+        "公告活动与服务": 3
+      },
+      "mechanisms": {
+        "关系冲突与反常事件": 15,
+        "直述命名或对象留白": 2,
+        "新奇对象或新视角": 1,
+        "判断比较与选择": 1
+      },
+      "self_sufficiency": {
+        "2": 14,
+        "1": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 19
+      }
+    },
+    {
+      "brand": "一步一部Rolling",
+      "platform": "xiaohongshu",
+      "records": 5,
+      "content_types": {
+        "剧情与概念短片": 5
+      },
+      "mechanisms": {
+        "关系冲突与反常事件": 5
+      },
+      "self_sufficiency": {
+        "2": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 5
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "platform": "bilibili",
+      "records": 101,
+      "content_types": {
+        "操作教程与实用方法": 11,
+        "知识解释": 41,
+        "纪实探访与人物访谈": 18,
+        "实验与亲身体验": 25,
+        "组织与创作幕后": 1,
+        "问答与互动": 1,
+        "视觉或声音作品": 3,
+        "公告活动与服务": 1
+      },
+      "mechanisms": {
+        "方法与过程": 26,
+        "新奇对象或新视角": 16,
+        "真实行动与完成成果": 21,
+        "判断比较与选择": 11,
+        "身份进入与亲历权限": 6,
+        "程度规模与极限": 6,
+        "具体用途与受益": 10,
+        "情绪反应与感受": 2,
+        "互动与答疑": 1,
+        "直述命名或对象留白": 1,
+        "规则条件与输赢": 1
+      },
+      "self_sufficiency": {
+        "2": 96,
+        "1": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 101
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "platform": "douyin",
+      "records": 159,
+      "content_types": {
+        "纪实探访与人物访谈": 24,
+        "知识解释": 74,
+        "实验与亲身体验": 29,
+        "操作教程与实用方法": 12,
+        "视觉或声音作品": 13,
+        "问答与互动": 2,
+        "组织与创作幕后": 1,
+        "社交与生活片段": 2,
+        "文字不足以判定": 2
+      },
+      "mechanisms": {
+        "真实行动与完成成果": 32,
+        "程度规模与极限": 12,
+        "方法与过程": 39,
+        "新奇对象或新视角": 24,
+        "判断比较与选择": 21,
+        "身份进入与亲历权限": 9,
+        "具体用途与受益": 9,
+        "原因与原理": 1,
+        "情绪反应与感受": 7,
+        "互动与答疑": 2,
+        "直述命名或对象留白": 3
+      },
+      "self_sufficiency": {
+        "2": 155,
+        "1": 2,
+        "0": 2
+      },
+      "strata": {
+        "捕获标题或短文案": 157,
+        "空白或占位": 2
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "platform": "xiaohongshu",
+      "records": 116,
+      "content_types": {
+        "实验与亲身体验": 27,
+        "纪实探访与人物访谈": 21,
+        "操作教程与实用方法": 13,
+        "知识解释": 49,
+        "视觉或声音作品": 4,
+        "问答与互动": 1,
+        "社交与生活片段": 1
+      },
+      "mechanisms": {
+        "程度规模与极限": 12,
+        "真实行动与完成成果": 24,
+        "方法与过程": 22,
+        "新奇对象或新视角": 18,
+        "判断比较与选择": 13,
+        "身份进入与亲历权限": 11,
+        "具体用途与受益": 11,
+        "互动与答疑": 1,
+        "情绪反应与感受": 3,
+        "直述命名或对象留白": 1
+      },
+      "self_sufficiency": {
+        "2": 113,
+        "1": 3
+      },
+      "strata": {
+        "捕获标题或短文案": 116
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "platform": "weibo",
+      "records": 98,
+      "content_types": {
+        "操作教程与实用方法": 9,
+        "知识解释": 47,
+        "纪实探访与人物访谈": 16,
+        "实验与亲身体验": 22,
+        "社交与生活片段": 1,
+        "问答与互动": 2,
+        "组织与创作幕后": 1
+      },
+      "mechanisms": {
+        "方法与过程": 25,
+        "新奇对象或新视角": 11,
+        "程度规模与极限": 11,
+        "真实行动与完成成果": 23,
+        "判断比较与选择": 10,
+        "身份进入与亲历权限": 6,
+        "具体用途与受益": 7,
+        "直述命名或对象留白": 1,
+        "互动与答疑": 2,
+        "情绪反应与感受": 2
+      },
+      "self_sufficiency": {
+        "2": 93,
+        "1": 4,
+        "0": 1
+      },
+      "strata": {
+        "捕获标题或短文案": 98
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "platform": "youtube",
+      "records": 106,
+      "content_types": {
+        "操作教程与实用方法": 10,
+        "知识解释": 55,
+        "纪实探访与人物访谈": 15,
+        "实验与亲身体验": 23,
+        "问答与互动": 1,
+        "视觉或声音作品": 2
+      },
+      "mechanisms": {
+        "方法与过程": 27,
+        "新奇对象或新视角": 15,
+        "程度规模与极限": 11,
+        "真实行动与完成成果": 20,
+        "判断比较与选择": 14,
+        "身份进入与亲历权限": 5,
+        "具体用途与受益": 9,
+        "互动与答疑": 1,
+        "情绪反应与感受": 3,
+        "直述命名或对象留白": 1
+      },
+      "self_sufficiency": {
+        "2": 102,
+        "1": 4
+      },
+      "strata": {
+        "捕获标题或短文案": 106
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "platform": "bilibili",
+      "records": 931,
+      "content_types": {
+        "问答与互动": 15,
+        "产品评测与器材选择": 300,
+        "商品课程推广与展示": 4,
+        "纪实探访与人物访谈": 105,
+        "视觉或声音作品": 77,
+        "实验与亲身体验": 14,
+        "知识解释": 81,
+        "组织与创作幕后": 129,
+        "观点与创作讨论": 16,
+        "操作教程与实用方法": 99,
+        "社交与生活片段": 26,
+        "公告活动与服务": 20,
+        "挑战与综艺": 20,
+        "剧情与概念短片": 21,
+        "文字不足以判定": 4
+      },
+      "mechanisms": {
+        "互动与答疑": 26,
+        "判断比较与选择": 224,
+        "具体用途与受益": 55,
+        "身份进入与亲历权限": 81,
+        "新奇对象或新视角": 118,
+        "直述命名或对象留白": 105,
+        "方法与过程": 127,
+        "关系冲突与反常事件": 5,
+        "原因与原理": 25,
+        "程度规模与极限": 30,
+        "真实行动与完成成果": 90,
+        "情绪反应与感受": 23,
+        "规则条件与输赢": 20,
+        "优惠发售与时限": 2
+      },
+      "self_sufficiency": {
+        "2": 812,
+        "1": 105,
+        "0": 14
+      },
+      "strata": {
+        "捕获标题或短文案": 931
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "platform": "douyin",
+      "records": 554,
+      "content_types": {
+        "观点与创作讨论": 14,
+        "纪实探访与人物访谈": 81,
+        "问答与互动": 10,
+        "商品课程推广与展示": 50,
+        "知识解释": 67,
+        "组织与创作幕后": 70,
+        "产品评测与器材选择": 141,
+        "公告活动与服务": 21,
+        "视觉或声音作品": 50,
+        "社交与生活片段": 4,
+        "实验与亲身体验": 19,
+        "剧情与概念短片": 5,
+        "挑战与综艺": 10,
+        "操作教程与实用方法": 10,
+        "文字不足以判定": 2
+      },
+      "mechanisms": {
+        "判断比较与选择": 142,
+        "真实行动与完成成果": 65,
+        "互动与答疑": 12,
+        "直述命名或对象留白": 36,
+        "方法与过程": 53,
+        "具体用途与受益": 29,
+        "身份进入与亲历权限": 61,
+        "关系冲突与反常事件": 7,
+        "新奇对象或新视角": 79,
+        "优惠发售与时限": 8,
+        "程度规模与极限": 14,
+        "规则条件与输赢": 17,
+        "情绪反应与感受": 15,
+        "原因与原理": 16
+      },
+      "self_sufficiency": {
+        "2": 512,
+        "1": 40,
+        "0": 2
+      },
+      "strata": {
+        "捕获标题或短文案": 532,
+        "长发布文案": 20,
+        "空白或占位": 2
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "platform": "xiaohongshu",
+      "records": 529,
+      "content_types": {
+        "商品课程推广与展示": 22,
+        "纪实探访与人物访谈": 75,
+        "问答与互动": 12,
+        "文字不足以判定": 15,
+        "知识解释": 58,
+        "产品评测与器材选择": 140,
+        "组织与创作幕后": 69,
+        "社交与生活片段": 14,
+        "公告活动与服务": 24,
+        "视觉或声音作品": 45,
+        "实验与亲身体验": 12,
+        "观点与创作讨论": 18,
+        "剧情与概念短片": 2,
+        "挑战与综艺": 8,
+        "操作教程与实用方法": 15
+      },
+      "mechanisms": {
+        "具体用途与受益": 24,
+        "真实行动与完成成果": 54,
+        "互动与答疑": 20,
+        "直述命名或对象留白": 52,
+        "方法与过程": 45,
+        "新奇对象或新视角": 80,
+        "身份进入与亲历权限": 48,
+        "判断比较与选择": 134,
+        "关系冲突与反常事件": 8,
+        "情绪反应与感受": 16,
+        "优惠发售与时限": 4,
+        "程度规模与极限": 12,
+        "规则条件与输赢": 17,
+        "原因与原理": 15
+      },
+      "self_sufficiency": {
+        "2": 446,
+        "0": 16,
+        "1": 67
+      },
+      "strata": {
+        "捕获标题或短文案": 529
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "platform": "weibo",
+      "records": 789,
+      "content_types": {
+        "问答与互动": 13,
+        "产品评测与器材选择": 232,
+        "组织与创作幕后": 130,
+        "纪实探访与人物访谈": 97,
+        "公告活动与服务": 25,
+        "视觉或声音作品": 60,
+        "社交与生活片段": 19,
+        "实验与亲身体验": 15,
+        "知识解释": 78,
+        "观点与创作讨论": 14,
+        "商品课程推广与展示": 14,
+        "挑战与综艺": 18,
+        "操作教程与实用方法": 61,
+        "剧情与概念短片": 11,
+        "文字不足以判定": 2
+      },
+      "mechanisms": {
+        "互动与答疑": 26,
+        "判断比较与选择": 207,
+        "真实行动与完成成果": 95,
+        "身份进入与亲历权限": 69,
+        "新奇对象或新视角": 108,
+        "方法与过程": 95,
+        "直述命名或对象留白": 64,
+        "关系冲突与反常事件": 5,
+        "原因与原理": 23,
+        "程度规模与极限": 24,
+        "情绪反应与感受": 21,
+        "规则条件与输赢": 20,
+        "具体用途与受益": 31,
+        "优惠发售与时限": 1
+      },
+      "self_sufficiency": {
+        "2": 700,
+        "1": 83,
+        "0": 6
+      },
+      "strata": {
+        "捕获标题或短文案": 789
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "platform": "youtube",
+      "records": 867,
+      "content_types": {
+        "问答与互动": 13,
+        "产品评测与器材选择": 315,
+        "文字不足以判定": 2,
+        "组织与创作幕后": 120,
+        "纪实探访与人物访谈": 99,
+        "视觉或声音作品": 66,
+        "社交与生活片段": 22,
+        "实验与亲身体验": 16,
+        "知识解释": 77,
+        "公告活动与服务": 13,
+        "观点与创作讨论": 15,
+        "商品课程推广与展示": 3,
+        "剧情与概念短片": 9,
+        "挑战与综艺": 17,
+        "操作教程与实用方法": 80
+      },
+      "mechanisms": {
+        "互动与答疑": 18,
+        "判断比较与选择": 226,
+        "直述命名或对象留白": 84,
+        "真实行动与完成成果": 84,
+        "身份进入与亲历权限": 72,
+        "新奇对象或新视角": 127,
+        "方法与过程": 109,
+        "关系冲突与反常事件": 5,
+        "原因与原理": 26,
+        "程度规模与极限": 28,
+        "情绪反应与感受": 22,
+        "规则条件与输赢": 16,
+        "具体用途与受益": 49,
+        "优惠发售与时限": 1
+      },
+      "self_sufficiency": {
+        "2": 782,
+        "0": 7,
+        "1": 78
+      },
+      "strata": {
+        "捕获标题或短文案": 867
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "platform": "bilibili",
+      "records": 94,
+      "content_types": {
+        "组织与创作幕后": 28,
+        "挑战与综艺": 51,
+        "纪实探访与人物访谈": 1,
+        "问答与互动": 2,
+        "社交与生活片段": 7,
+        "产品评测与器材选择": 4,
+        "剧情与概念短片": 1
+      },
+      "mechanisms": {
+        "身份进入与亲历权限": 12,
+        "规则条件与输赢": 42,
+        "直述命名或对象留白": 4,
+        "新奇对象或新视角": 13,
+        "真实行动与完成成果": 6,
+        "互动与答疑": 2,
+        "情绪反应与感受": 6,
+        "原因与原理": 1,
+        "具体用途与受益": 1,
+        "关系冲突与反常事件": 1,
+        "程度规模与极限": 1,
+        "判断比较与选择": 2,
+        "方法与过程": 3
+      },
+      "self_sufficiency": {
+        "2": 82,
+        "1": 11,
+        "0": 1
+      },
+      "strata": {
+        "捕获标题或短文案": 94
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "platform": "douyin",
+      "records": 132,
+      "content_types": {
+        "挑战与综艺": 79,
+        "组织与创作幕后": 31,
+        "公告活动与服务": 6,
+        "社交与生活片段": 8,
+        "实验与亲身体验": 2,
+        "产品评测与器材选择": 4,
+        "问答与互动": 2
+      },
+      "mechanisms": {
+        "规则条件与输赢": 64,
+        "身份进入与亲历权限": 16,
+        "判断比较与选择": 8,
+        "真实行动与完成成果": 8,
+        "关系冲突与反常事件": 3,
+        "情绪反应与感受": 8,
+        "程度规模与极限": 2,
+        "互动与答疑": 3,
+        "新奇对象或新视角": 16,
+        "原因与原理": 1,
+        "具体用途与受益": 1,
+        "方法与过程": 2
+      },
+      "self_sufficiency": {
+        "2": 126,
+        "1": 6
+      },
+      "strata": {
+        "捕获标题或短文案": 130,
+        "长发布文案": 2
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "platform": "xiaohongshu",
+      "records": 140,
+      "content_types": {
+        "挑战与综艺": 76,
+        "公告活动与服务": 7,
+        "产品评测与器材选择": 6,
+        "社交与生活片段": 16,
+        "组织与创作幕后": 30,
+        "实验与亲身体验": 1,
+        "商品课程推广与展示": 3,
+        "问答与互动": 1
+      },
+      "mechanisms": {
+        "规则条件与输赢": 62,
+        "身份进入与亲历权限": 19,
+        "判断比较与选择": 7,
+        "互动与答疑": 2,
+        "真实行动与完成成果": 6,
+        "新奇对象或新视角": 20,
+        "程度规模与极限": 2,
+        "直述命名或对象留白": 4,
+        "情绪反应与感受": 9,
+        "原因与原理": 1,
+        "关系冲突与反常事件": 4,
+        "具体用途与受益": 2,
+        "方法与过程": 2
+      },
+      "self_sufficiency": {
+        "2": 127,
+        "1": 13
+      },
+      "strata": {
+        "捕获标题或短文案": 140
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "platform": "weibo",
+      "records": 61,
+      "content_types": {
+        "挑战与综艺": 51,
+        "组织与创作幕后": 3,
+        "公告活动与服务": 3,
+        "实验与亲身体验": 2,
+        "产品评测与器材选择": 1,
+        "社交与生活片段": 1
+      },
+      "mechanisms": {
+        "规则条件与输赢": 40,
+        "身份进入与亲历权限": 10,
+        "判断比较与选择": 6,
+        "真实行动与完成成果": 1,
+        "新奇对象或新视角": 2,
+        "程度规模与极限": 1,
+        "情绪反应与感受": 1
+      },
+      "self_sufficiency": {
+        "2": 57,
+        "1": 4
+      },
+      "strata": {
+        "捕获标题或短文案": 61
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "platform": "youtube",
+      "records": 54,
+      "content_types": {
+        "组织与创作幕后": 2,
+        "挑战与综艺": 47,
+        "纪实探访与人物访谈": 1,
+        "公告活动与服务": 1,
+        "实验与亲身体验": 1,
+        "产品评测与器材选择": 1,
+        "社交与生活片段": 1
+      },
+      "mechanisms": {
+        "身份进入与亲历权限": 10,
+        "规则条件与输赢": 36,
+        "直述命名或对象留白": 1,
+        "判断比较与选择": 5,
+        "真实行动与完成成果": 1,
+        "新奇对象或新视角": 1
+      },
+      "self_sufficiency": {
+        "2": 49,
+        "1": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 54
+      }
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "platform": "bilibili",
+      "records": 132,
+      "content_types": {
+        "社交与生活片段": 27,
+        "文字不足以判定": 18,
+        "商品课程推广与展示": 65,
+        "公告活动与服务": 8,
+        "纪实探访与人物访谈": 1,
+        "组织与创作幕后": 4,
+        "操作教程与实用方法": 5,
+        "挑战与综艺": 1,
+        "实验与亲身体验": 1,
+        "产品评测与器材选择": 2
+      },
+      "mechanisms": {
+        "直述命名或对象留白": 39,
+        "身份进入与亲历权限": 6,
+        "具体用途与受益": 30,
+        "情绪反应与感受": 10,
+        "关系冲突与反常事件": 5,
+        "优惠发售与时限": 3,
+        "互动与答疑": 1,
+        "方法与过程": 5,
+        "新奇对象或新视角": 21,
+        "真实行动与完成成果": 3,
+        "判断比较与选择": 8,
+        "程度规模与极限": 1
+      },
+      "self_sufficiency": {
+        "1": 45,
+        "0": 24,
+        "2": 63
+      },
+      "strata": {
+        "捕获标题或短文案": 132
+      }
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "platform": "douyin",
+      "records": 306,
+      "content_types": {
+        "商品课程推广与展示": 258,
+        "公告活动与服务": 35,
+        "纪实探访与人物访谈": 1,
+        "组织与创作幕后": 3,
+        "操作教程与实用方法": 3,
+        "问答与互动": 2,
+        "社交与生活片段": 2,
+        "产品评测与器材选择": 2
+      },
+      "mechanisms": {
+        "具体用途与受益": 159,
+        "规则条件与输赢": 7,
+        "真实行动与完成成果": 24,
+        "判断比较与选择": 17,
+        "互动与答疑": 9,
+        "情绪反应与感受": 7,
+        "优惠发售与时限": 9,
+        "直述命名或对象留白": 17,
+        "方法与过程": 7,
+        "新奇对象或新视角": 26,
+        "身份进入与亲历权限": 16,
+        "程度规模与极限": 5,
+        "关系冲突与反常事件": 3
+      },
+      "self_sufficiency": {
+        "2": 287,
+        "1": 19
+      },
+      "strata": {
+        "捕获标题或短文案": 267,
+        "长发布文案": 39
+      }
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "platform": "xiaohongshu",
+      "records": 426,
+      "content_types": {
+        "社交与生活片段": 46,
+        "公告活动与服务": 43,
+        "商品课程推广与展示": 265,
+        "文字不足以判定": 39,
+        "挑战与综艺": 3,
+        "纪实探访与人物访谈": 1,
+        "组织与创作幕后": 12,
+        "操作教程与实用方法": 7,
+        "问答与互动": 6,
+        "视觉或声音作品": 1,
+        "产品评测与器材选择": 1,
+        "观点与创作讨论": 1,
+        "剧情与概念短片": 1
+      },
+      "mechanisms": {
+        "直述命名或对象留白": 82,
+        "优惠发售与时限": 19,
+        "真实行动与完成成果": 24,
+        "判断比较与选择": 30,
+        "具体用途与受益": 108,
+        "身份进入与亲历权限": 32,
+        "互动与答疑": 25,
+        "情绪反应与感受": 20,
+        "关系冲突与反常事件": 9,
+        "方法与过程": 9,
+        "规则条件与输赢": 4,
+        "新奇对象或新视角": 57,
+        "程度规模与极限": 7
+      },
+      "self_sufficiency": {
+        "1": 126,
+        "2": 231,
+        "0": 69
+      },
+      "strata": {
+        "捕获标题或短文案": 425,
+        "空白或占位": 1
+      }
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "platform": "weibo",
+      "records": 64,
+      "content_types": {
+        "文字不足以判定": 2,
+        "商品课程推广与展示": 42,
+        "社交与生活片段": 5,
+        "组织与创作幕后": 5,
+        "挑战与综艺": 1,
+        "公告活动与服务": 2,
+        "操作教程与实用方法": 3,
+        "产品评测与器材选择": 4
+      },
+      "mechanisms": {
+        "新奇对象或新视角": 17,
+        "具体用途与受益": 18,
+        "直述命名或对象留白": 11,
+        "情绪反应与感受": 4,
+        "程度规模与极限": 1,
+        "方法与过程": 4,
+        "身份进入与亲历权限": 2,
+        "判断比较与选择": 2,
+        "关系冲突与反常事件": 1,
+        "互动与答疑": 1,
+        "真实行动与完成成果": 2,
+        "优惠发售与时限": 1
+      },
+      "self_sufficiency": {
+        "0": 3,
+        "1": 15,
+        "2": 46
+      },
+      "strata": {
+        "捕获标题或短文案": 64
+      }
+    },
+    {
+      "brand": "飓风课堂",
+      "platform": "bilibili",
+      "records": 36,
+      "content_types": {
+        "商品课程推广与展示": 25,
+        "文字不足以判定": 1,
+        "知识解释": 3,
+        "公告活动与服务": 1,
+        "社交与生活片段": 2,
+        "操作教程与实用方法": 2,
+        "问答与互动": 1,
+        "视觉或声音作品": 1
+      },
+      "mechanisms": {
+        "具体用途与受益": 8,
+        "直述命名或对象留白": 4,
+        "优惠发售与时限": 4,
+        "情绪反应与感受": 2,
+        "规则条件与输赢": 1,
+        "真实行动与完成成果": 4,
+        "判断比较与选择": 6,
+        "新奇对象或新视角": 3,
+        "身份进入与亲历权限": 1,
+        "程度规模与极限": 1,
+        "方法与过程": 1,
+        "互动与答疑": 1
+      },
+      "self_sufficiency": {
+        "2": 21,
+        "1": 13,
+        "0": 2
+      },
+      "strata": {
+        "捕获标题或短文案": 36
+      }
+    },
+    {
+      "brand": "飓风课堂",
+      "platform": "douyin",
+      "records": 59,
+      "content_types": {
+        "商品课程推广与展示": 40,
+        "公告活动与服务": 6,
+        "知识解释": 3,
+        "操作教程与实用方法": 6,
+        "问答与互动": 2,
+        "组织与创作幕后": 1,
+        "视觉或声音作品": 1
+      },
+      "mechanisms": {
+        "具体用途与受益": 15,
+        "直述命名或对象留白": 2,
+        "优惠发售与时限": 6,
+        "情绪反应与感受": 3,
+        "规则条件与输赢": 4,
+        "判断比较与选择": 7,
+        "真实行动与完成成果": 9,
+        "身份进入与亲历权限": 2,
+        "新奇对象或新视角": 3,
+        "互动与答疑": 2,
+        "方法与过程": 6
+      },
+      "self_sufficiency": {
+        "2": 49,
+        "1": 10
+      },
+      "strata": {
+        "捕获标题或短文案": 48,
+        "长发布文案": 11
+      }
+    },
+    {
+      "brand": "飓风课堂",
+      "platform": "xiaohongshu",
+      "records": 81,
+      "content_types": {
+        "商品课程推广与展示": 38,
+        "文字不足以判定": 3,
+        "公告活动与服务": 10,
+        "知识解释": 5,
+        "操作教程与实用方法": 20,
+        "社交与生活片段": 2,
+        "组织与创作幕后": 1,
+        "问答与互动": 1,
+        "视觉或声音作品": 1
+      },
+      "mechanisms": {
+        "具体用途与受益": 26,
+        "直述命名或对象留白": 9,
+        "优惠发售与时限": 5,
+        "情绪反应与感受": 3,
+        "规则条件与输赢": 6,
+        "判断比较与选择": 9,
+        "真实行动与完成成果": 8,
+        "身份进入与亲历权限": 2,
+        "新奇对象或新视角": 5,
+        "程度规模与极限": 1,
+        "方法与过程": 5,
+        "互动与答疑": 1,
+        "原因与原理": 1
+      },
+      "self_sufficiency": {
+        "2": 57,
+        "1": 19,
+        "0": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 80,
+        "空白或占位": 1
+      }
+    }
+  ],
+  "bilibili_complete_native_titles": [
+    {
+      "brand": "一步一部Rolling",
+      "records": 17,
+      "content_types": {
+        "剧情与概念短片": 16,
+        "公告活动与服务": 1
+      },
+      "mechanisms": {
+        "直述命名或对象留白": 4,
+        "关系冲突与反常事件": 11,
+        "具体用途与受益": 1,
+        "判断比较与选择": 1
+      },
+      "self_sufficiency": {
+        "1": 7,
+        "2": 10
+      },
+      "strata": {
+        "捕获标题或短文案": 17
+      }
+    },
+    {
+      "brand": "亿点点不一样",
+      "records": 101,
+      "content_types": {
+        "操作教程与实用方法": 11,
+        "知识解释": 41,
+        "纪实探访与人物访谈": 18,
+        "实验与亲身体验": 25,
+        "组织与创作幕后": 1,
+        "问答与互动": 1,
+        "视觉或声音作品": 3,
+        "公告活动与服务": 1
+      },
+      "mechanisms": {
+        "方法与过程": 26,
+        "新奇对象或新视角": 16,
+        "真实行动与完成成果": 21,
+        "判断比较与选择": 11,
+        "身份进入与亲历权限": 6,
+        "程度规模与极限": 6,
+        "具体用途与受益": 10,
+        "情绪反应与感受": 2,
+        "互动与答疑": 1,
+        "直述命名或对象留白": 1,
+        "规则条件与输赢": 1
+      },
+      "self_sufficiency": {
+        "2": 96,
+        "1": 5
+      },
+      "strata": {
+        "捕获标题或短文案": 101
+      }
+    },
+    {
+      "brand": "影视飓风",
+      "records": 931,
+      "content_types": {
+        "问答与互动": 15,
+        "产品评测与器材选择": 300,
+        "商品课程推广与展示": 4,
+        "纪实探访与人物访谈": 105,
+        "视觉或声音作品": 77,
+        "实验与亲身体验": 14,
+        "知识解释": 81,
+        "组织与创作幕后": 129,
+        "观点与创作讨论": 16,
+        "操作教程与实用方法": 99,
+        "社交与生活片段": 26,
+        "公告活动与服务": 20,
+        "挑战与综艺": 20,
+        "剧情与概念短片": 21,
+        "文字不足以判定": 4
+      },
+      "mechanisms": {
+        "互动与答疑": 26,
+        "判断比较与选择": 224,
+        "具体用途与受益": 55,
+        "身份进入与亲历权限": 81,
+        "新奇对象或新视角": 118,
+        "直述命名或对象留白": 105,
+        "方法与过程": 127,
+        "关系冲突与反常事件": 5,
+        "原因与原理": 25,
+        "程度规模与极限": 30,
+        "真实行动与完成成果": 90,
+        "情绪反应与感受": 23,
+        "规则条件与输赢": 20,
+        "优惠发售与时限": 2
+      },
+      "self_sufficiency": {
+        "2": 812,
+        "1": 105,
+        "0": 14
+      },
+      "strata": {
+        "捕获标题或短文案": 931
+      }
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "records": 94,
+      "content_types": {
+        "组织与创作幕后": 28,
+        "挑战与综艺": 51,
+        "纪实探访与人物访谈": 1,
+        "问答与互动": 2,
+        "社交与生活片段": 7,
+        "产品评测与器材选择": 4,
+        "剧情与概念短片": 1
+      },
+      "mechanisms": {
+        "身份进入与亲历权限": 12,
+        "规则条件与输赢": 42,
+        "直述命名或对象留白": 4,
+        "新奇对象或新视角": 13,
+        "真实行动与完成成果": 6,
+        "互动与答疑": 2,
+        "情绪反应与感受": 6,
+        "原因与原理": 1,
+        "具体用途与受益": 1,
+        "关系冲突与反常事件": 1,
+        "程度规模与极限": 1,
+        "判断比较与选择": 2,
+        "方法与过程": 3
+      },
+      "self_sufficiency": {
+        "2": 82,
+        "1": 11,
+        "0": 1
+      },
+      "strata": {
+        "捕获标题或短文案": 94
+      }
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "records": 132,
+      "content_types": {
+        "社交与生活片段": 27,
+        "文字不足以判定": 18,
+        "商品课程推广与展示": 65,
+        "公告活动与服务": 8,
+        "纪实探访与人物访谈": 1,
+        "组织与创作幕后": 4,
+        "操作教程与实用方法": 5,
+        "挑战与综艺": 1,
+        "实验与亲身体验": 1,
+        "产品评测与器材选择": 2
+      },
+      "mechanisms": {
+        "直述命名或对象留白": 39,
+        "身份进入与亲历权限": 6,
+        "具体用途与受益": 30,
+        "情绪反应与感受": 10,
+        "关系冲突与反常事件": 5,
+        "优惠发售与时限": 3,
+        "互动与答疑": 1,
+        "方法与过程": 5,
+        "新奇对象或新视角": 21,
+        "真实行动与完成成果": 3,
+        "判断比较与选择": 8,
+        "程度规模与极限": 1
+      },
+      "self_sufficiency": {
+        "1": 45,
+        "0": 24,
+        "2": 63
+      },
+      "strata": {
+        "捕获标题或短文案": 132
+      }
+    },
+    {
+      "brand": "飓风课堂",
+      "records": 36,
+      "content_types": {
+        "商品课程推广与展示": 25,
+        "文字不足以判定": 1,
+        "知识解释": 3,
+        "公告活动与服务": 1,
+        "社交与生活片段": 2,
+        "操作教程与实用方法": 2,
+        "问答与互动": 1,
+        "视觉或声音作品": 1
+      },
+      "mechanisms": {
+        "具体用途与受益": 8,
+        "直述命名或对象留白": 4,
+        "优惠发售与时限": 4,
+        "情绪反应与感受": 2,
+        "规则条件与输赢": 1,
+        "真实行动与完成成果": 4,
+        "判断比较与选择": 6,
+        "新奇对象或新视角": 3,
+        "身份进入与亲历权限": 1,
+        "程度规模与极限": 1,
+        "方法与过程": 1,
+        "互动与答疑": 1
+      },
+      "self_sufficiency": {
+        "2": 21,
+        "1": 13,
+        "0": 2
+      },
+      "strata": {
+        "捕获标题或短文案": 36
+      }
+    }
+  ],
+  "brand_totals": {
+    "亿点点不一样": 580,
+    "影视飓风": 3670,
+    "飓多多StormCrew": 481,
+    "一步一部Rolling": 41,
+    "飓风商店MediaStore": 928,
+    "飓风课堂": 176
+  },
+  "platform_totals": {
+    "bilibili": 1311,
+    "douyin": 1229,
+    "xiaohongshu": 1297,
+    "weibo": 1012,
+    "youtube": 1027
+  },
+  "strict_cross_platform_text_groups": 1167,
+  "records_in_strict_text_groups": 3218,
+  "pairwise_text_overlap": [
+    {
+      "brand": "一步一部Rolling",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "一步一部Rolling",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 5,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "一步一部Rolling",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 33,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "bilibili",
+      "right": "weibo",
+      "shared_text_groups": 67,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "bilibili",
+      "right": "youtube",
+      "shared_text_groups": 80,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "douyin",
+      "right": "weibo",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "douyin",
+      "right": "youtube",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "xiaohongshu",
+      "right": "weibo",
+      "shared_text_groups": 50,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "xiaohongshu",
+      "right": "youtube",
+      "shared_text_groups": 48,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "亿点点不一样",
+      "left": "weibo",
+      "right": "youtube",
+      "shared_text_groups": 83,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 1,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 205,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "bilibili",
+      "right": "weibo",
+      "shared_text_groups": 529,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "bilibili",
+      "right": "youtube",
+      "shared_text_groups": 626,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 1,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "douyin",
+      "right": "weibo",
+      "shared_text_groups": 1,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "douyin",
+      "right": "youtube",
+      "shared_text_groups": 1,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "xiaohongshu",
+      "right": "weibo",
+      "shared_text_groups": 254,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "xiaohongshu",
+      "right": "youtube",
+      "shared_text_groups": 229,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "影视飓风",
+      "left": "weibo",
+      "right": "youtube",
+      "shared_text_groups": 529,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 52,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "bilibili",
+      "right": "weibo",
+      "shared_text_groups": 29,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "bilibili",
+      "right": "youtube",
+      "shared_text_groups": 32,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "douyin",
+      "right": "weibo",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "douyin",
+      "right": "youtube",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "xiaohongshu",
+      "right": "weibo",
+      "shared_text_groups": 47,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "xiaohongshu",
+      "right": "youtube",
+      "shared_text_groups": 35,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓多多StormCrew",
+      "left": "weibo",
+      "right": "youtube",
+      "shared_text_groups": 43,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 86,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "bilibili",
+      "right": "weibo",
+      "shared_text_groups": 46,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "douyin",
+      "right": "weibo",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风商店MediaStore",
+      "left": "xiaohongshu",
+      "right": "weibo",
+      "shared_text_groups": 24,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风课堂",
+      "left": "bilibili",
+      "right": "douyin",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风课堂",
+      "left": "bilibili",
+      "right": "xiaohongshu",
+      "shared_text_groups": 29,
+      "not_same_video_or_title_change_rate": true
+    },
+    {
+      "brand": "飓风课堂",
+      "left": "douyin",
+      "right": "xiaohongshu",
+      "shared_text_groups": 0,
+      "not_same_video_or_title_change_rate": true
+    }
+  ],
+  "bilibili_coauthor_duplicates": [
+    {
+      "native_id": "BV1G5o9YpEok",
+      "brands": [
+        "影视飓风",
+        "飓多多StormCrew"
+      ]
+    },
+    {
+      "native_id": "BV1WQzuYqEun",
+      "brands": [
+        "影视飓风",
+        "飓多多StormCrew"
+      ]
+    }
+  ],
+  "global_collection_complete": false,
+  "video_versions_all_verified": false,
+  "performance_effect_inferred": false,
+  "semantic_schema": {
+    "content_types": {
+      "K": "知识解释",
+      "X": "实验与亲身体验",
+      "R": "产品评测与器材选择",
+      "T": "操作教程与实用方法",
+      "C": "挑战与综艺",
+      "D": "纪实探访与人物访谈",
+      "V": "视觉或声音作品",
+      "F": "剧情与概念短片",
+      "M": "商品课程推广与展示",
+      "B": "组织与创作幕后",
+      "E": "公告活动与服务",
+      "Q": "问答与互动",
+      "P": "观点与创作讨论",
+      "S": "社交与生活片段",
+      "U": "文字不足以判定"
+    },
+    "mechanisms": {
+      "H": "方法与过程",
+      "Y": "原因与原理",
+      "J": "判断比较与选择",
+      "Z": "程度规模与极限",
+      "N": "新奇对象或新视角",
+      "A": "真实行动与完成成果",
+      "W": "关系冲突与反常事件",
+      "G": "规则条件与输赢",
+      "L": "具体用途与受益",
+      "I": "身份进入与亲历权限",
+      "O": "情绪反应与感受",
+      "V": "直述命名或对象留白",
+      "Q": "互动与答疑",
+      "F": "优惠发售与时限"
+    },
+    "self_sufficiency": {
+      "0": "无明确对象或无法判断",
+      "1": "有对象但任务或结果需上下文补足",
+      "2": "文字已给出对象与可识别内容任务"
+    }
+  }
+}

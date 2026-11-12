@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "M01",
+    "name": "评测：把变化转成有对象的使用判断",
+    "promise": "观众在购买、升级、替换或继续使用之间，能得到哪项取舍依据。",
+    "entry_conditions": [
+      "内容包含实际使用、比较或可展示测试；产品名称只是对象，不是观看理由。",
+      "先识别使用人群与决策：是否升级、预算够不够、便携与性能怎么取舍。"
+    ],
+    "analysis_steps": [
+      "把新增功能与实际影响分开：外观变化本身不证明更好用。",
+      "列出一项值得比较的变化及可能的代价，确认内容确实触及两端。",
+      "选择升级判断、代价追问、够用门槛或代际差异中的主问题；别把全部参数塞进标题。",
+      "用准确产品与体验范围收尾；上手、深度评测、长期体验不能互换。"
+    ],
+    "branches": [
+      "升级判断：观众已有旧设备，重点是变化是否值得付费。",
+      "收益—代价：一项优势突出，但价格、体积、功能等另一端尚待解释。",
+      "够用门槛：低价或轻量设备能否完成明确任务。",
+      "代际差异：已有等待时间与版本对照，重点是到底改了什么。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1Enpxz5Ef3",
+        "title": "外观变了，值得买吗？iPhone 17 Pro&Air评测",
+        "url": "https://www.bilibili.com/video/BV1Enpxz5Ef3",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "升级判断",
+        "analysis": "“外观变了”给已知变化，“值得买吗”把变化接到选择；评测与型号限定交付。",
+        "transfer": "迁移变化→价值判断的关系，而非每次都写值得买。",
+        "boundary": "外观只是入口，内容仍需实际使用依据。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1KoWBzwE7T",
+        "title": "最薄的iPhone...代价呢？国行iPhone Air上手体验",
+        "url": "https://www.bilibili.com/video/BV1KoWBzwE7T",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "优势的代价",
+        "analysis": "“最薄”被“代价呢”重新打开，观众期待便携优势之外的取舍。",
+        "transfer": "先找一个真实优势，再确认另一端有什么限制。",
+        "boundary": "最薄为原作自述，不能移植成用户产品的事实。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV18nyhBLEN9",
+        "title": "1499元的新大疆无人机，够拍吗？大疆 Neo 2上手",
+        "url": "https://www.bilibili.com/video/BV18nyhBLEN9",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "预算与够用",
+        "analysis": "1499元明确预算门槛，“够拍吗”问的是可用程度，不是抽象性能王者。",
+        "transfer": "用目标任务定义够用，适合入门器材与低成本方案。",
+        "boundary": "须知道拍什么；没有任务边界时“够用”仍然空泛。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1Y9vAziErh",
+        "title": "时隔3年，升级了什么？哈苏X2DⅡ上手",
+        "url": "https://www.bilibili.com/video/BV1Y9vAziErh",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "代际变化",
+        "analysis": "“时隔3年”建立等待预期，“升级了什么”邀请看差异，不预先宣称质变。",
+        "transfer": "已有版本对照时，将时间背景接到真实改动。",
+        "boundary": "仅看发布会参数时不能冒充实际体验。"
+      }
+    ],
+    "templates": [
+      "【变化】了，值得【购买／升级】吗？【产品】上手",
+      "【优势】更强了，那【真实代价】呢？",
+      "【真实预算】的【产品】，够【具体任务】吗？",
+      "时隔【真实周期】，【产品】到底改了什么？"
+    ],
+    "weak_example": "这台相机太强了！",
+    "weak_diagnosis": "只有结论强度，没有比较对象、任务或选择问题。",
+    "demonstration_brief": "用户确实比较了两台相机同场夜拍的噪点、对焦与重量；只做过一次测试。",
+    "demonstration_title": "晚上扫街，轻便和画质怎么选？两台相机同场对比",
+    "validation": [
+      "决定什么选择，而非只报型号？",
+      "比较范围和体验时长有没有被扩大？",
+      "结论未知时是否仍能提出成立的问题？"
+    ],
+    "adjacent_method": "只展示成片→M08；讲参数原理→M02；只介绍自家产品交付→M10。",
+    "reference": "title-methods/m01.md"
+  },
+  {
+    "id": "M02",
+    "name": "科普：把熟悉场景里的未知过程显现出来",
+    "promise": "让观众理解一个现象、对象或专业过程，解释依据比问号本身重要。",
+    "entry_conditions": [
+      "内容能用实拍、专业说明、观察或资料解释具体问题。",
+      "先区分“看见是什么样”与“解释为什么如此”，标题承诺不能超出材料。"
+    ],
+    "analysis_steps": [
+      "从观众熟悉的动作或场景找入口，指出其中看不见的一环。",
+      "识别不可见原因：太快、太小、被遮挡、专业操作难理解，或常见直觉可能错误。",
+      "选择与盲区对应的证据入口：慢放、放大、内部视角、过程跟拍、专业解释。",
+      "只保留一个主问题，技术规格用来说明能看见什么，不当独立卖点。"
+    ],
+    "branches": [
+      "过程揭示：日常经历中的专业操作。",
+      "时间展开：慢动作把快速环节变成可观察步骤。",
+      "空间展开：放大或内部视角呈现平时看不到的结构。",
+      "直觉修正：把“像特效／以为如此”转成可解释的过程。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|亿点点不一样|BV1zvFZzyELF",
+        "title": "手术时，麻醉医生对你做了什么？",
+        "url": "https://www.bilibili.com/video/BV1zvFZzyELF",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "过程揭示",
+        "analysis": "观众熟悉手术与麻醉，但不了解医生的具体行动；“对你做了什么”把职业解释落在个人经历。",
+        "transfer": "从经历过却没看清的一环切入。",
+        "boundary": "不把标题知识当作医疗指导或已验证结论。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV1sMAwziEcF",
+        "title": "慢放50倍，时速300km/h的F1赛车怎么在2s内换胎？",
+        "url": "https://www.bilibili.com/video/BV1sMAwziEcF",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "时间展开",
+        "analysis": "300km/h与2s指出过程之快，“慢放50倍”交代观察手段，换胎才是问题对象。",
+        "transfer": "先找肉眼来不及理解的动作，再用慢放回答。",
+        "boundary": "不能只抄数字，也不能把慢放倍率误作录制帧率。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV17F4m1T7M2",
+        "title": "芯片放大几万倍，你会看到什么？",
+        "url": "https://www.bilibili.com/video/BV17F4m1T7M2",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "空间展开",
+        "analysis": "芯片是熟悉但结构不可见的对象；放大几万倍使“会看到什么”有具体观察前提。",
+        "transfer": "把专业对象与一个能进入其结构的观察尺度连接。",
+        "boundary": "放大看到形态不等于解释所有工作原理。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV1Cfn4zJEyR",
+        "title": "1秒变色是特效？这才是变色龙真正的变色过程！",
+        "url": "https://www.bilibili.com/video/BV1Cfn4zJEyR",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "直觉修正",
+        "analysis": "“是特效？”提出可检验的误认，后半句明确要展示真实变色过程。",
+        "transfer": "用观众可能的判断与可见证据形成张力。",
+        "boundary": "没有误认或证据，不硬加“你被骗了”。"
+      }
+    ],
+    "templates": [
+      "【熟悉场景】时，【专业对象】到底做了什么？",
+      "慢放【真实倍数】，【快速过程】是怎么完成的？",
+      "把【对象】放大【真实尺度】，会看到什么？",
+      "【现象】是【常见误解】？我们拍下了它的真实过程。"
+    ],
+    "weak_example": "揭秘芯片的惊天秘密！",
+    "weak_diagnosis": "未知对象被空泛秘密替代，读者不知道究竟要理解哪一层。",
+    "demonstration_brief": "素材仅含盐粒显微画面及晶体形状解释，没有测量成分差异。",
+    "demonstration_title": "把一粒盐放大后，会看到什么样的结构？",
+    "validation": [
+      "问题是否具体？",
+      "观察手段能支持形态还是原理，是否混淆？",
+      "专业结论是否有内容依据？"
+    ],
+    "adjacent_method": "主要在做条件干预与结果比较→M03；主要教操作→M04；只欣赏微观画面→M08。",
+    "reference": "title-methods/m02.md"
+  },
+  {
+    "id": "M03",
+    "name": "实验与亲身体验：条件、观察与结果分开写",
+    "promise": "在限定条件下看到过程或差异；允许结果未知，但不把体验包装成普遍因果。",
+    "entry_conditions": [
+      "实际执行了干预、对照、持续练习或明确测试。",
+      "能区分做了什么、观察到什么，以及哪些原因尚未证明。"
+    ],
+    "analysis_steps": [
+      "列出对象、变量、时长、观察指标；没有控制的因素不要默认相同。",
+      "判断属于自我体验、两组比较、能力测试还是设定检验，选择对应口气。",
+      "挑一项最能理解实验的问题：变了什么、能否做到、是否符合预期。",
+      "标题保留会改变结果解读的关键条件，其余放正文；不为悬念伪造未知。"
+    ],
+    "branches": [
+      "持续体验：时间与具体行动建立过程承诺。",
+      "对照观察：A与B的差异需要实际比较。",
+      "设定检验：提出规则或概率是否成立的问题。",
+      "能力边界：把某能力与明确观察手段对照。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|亿点点不一样|BV1DAgS6SEqa",
+        "title": "连续21天十点睡六点起，我真的会变健康吗？",
+        "url": "https://www.bilibili.com/video/BV1DAgS6SEqa",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "持续体验",
+        "analysis": "21天、作息行为和健康疑问连接；“我”限定亲身体验主体。",
+        "transfer": "保留行为与周期，让读者知道变化从何而来。",
+        "boundary": "健康不能靠标题确认，更不能把一个人的观察推广为治疗建议。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV1enYL6SEtU",
+        "title": "高糖VS戒糖14天！真的差别很大吗？",
+        "url": "https://www.bilibili.com/video/BV1enYL6SEtU",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "对照观察",
+        "analysis": "高糖与戒糖并列，14天交代观察期限，问题聚焦差别。",
+        "transfer": "用真实对照对象组织差异，不只是把两个词写成VS。",
+        "boundary": "分组与其他条件未核验，不能据标题断言严格实验。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1Wzjg65EM6",
+        "title": "在AI里抛硬币，概率是50%吗？",
+        "url": "https://www.bilibili.com/video/BV1Wzjg65EM6",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "设定检验",
+        "analysis": "现实硬币的50%直觉被放入AI场景，疑问落在模型是否复现这一性质。",
+        "transfer": "把熟悉规则放到新条件中检验。",
+        "boundary": "有限输出频次不能自动证明模型总体概率。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV1Uh411p7r3",
+        "title": "决战刘谦！魔术VS超高速摄影机，能拍到破绽吗？",
+        "url": "https://www.bilibili.com/video/BV1Uh411p7r3",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "能力边界",
+        "analysis": "魔术与超高速摄影形成观察者—遮蔽机制的对照，“能拍到破绽吗”明确检验结果。",
+        "transfer": "找能相互检验的能力与工具。",
+        "boundary": "不要将没拍到等同不存在，也不伪造对抗情节。"
+      }
+    ],
+    "templates": [
+      "连续【真实时长】做【行动】，最后变了什么？",
+      "【条件A】VS【条件B】，在【期限／范围】内差别在哪？",
+      "在【新条件】下，【惯常规则】还成立吗？",
+      "【能力／对象】遇上【测试手段】，能发现【具体问题】吗？"
+    ],
+    "weak_example": "坚持七天，彻底改变人生！",
+    "weak_diagnosis": "从短期行动跳到无边界效果，没有可观察指标。",
+    "demonstration_brief": "同一作者连续七天整理拍摄文件，记录每天寻找指定素材所需时间；无其他人的对照。",
+    "demonstration_title": "连续七天整理拍摄文件，我找素材的时间变了吗？",
+    "validation": [
+      "条件是否真的执行？",
+      "观察指标是否被写成原因证明？",
+      "个人结果是否被扩大为所有人都会如此？"
+    ],
+    "adjacent_method": "目的是选设备→M01；目的是学会操作→M04；有规则输赢的娱乐参与→M05。",
+    "reference": "title-methods/m03.md"
+  },
+  {
+    "id": "M04",
+    "name": "教程：从卡住的任务走向可执行方法",
+    "promise": "让指定用户完成一个动作、解决一个故障或获得可重复的制作结果。",
+    "entry_conditions": [
+      "内容有可跟做的步骤、示范或排查路径。",
+      "明确是教技能、解具体难题，还是交付完整流程；不要用主题名代替任务。"
+    ],
+    "analysis_steps": [
+      "先说用户卡在哪：说话卡壳、多个机位不会剪、素材会丢，而非只说有干货。",
+      "确定起点与结果，决定单动作、问题排查、流程整合或机制演示分支。",
+      "选择一项能被示范的关键方法或成果，不把每个按钮都列进标题。",
+      "区分课程时长与学会时长，示范完成与用户必然成功不是一回事。"
+    ],
+    "branches": [
+      "单项技能：动作与可见结果最清楚。",
+      "具体痛点：从常见失败直接引到方法。",
+      "复杂流程：多步骤任务需要顺序与组织。",
+      "风险排查：把真实损失转为预防方案。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|亿点点不一样|BV1Bx4y1X7FC",
+        "title": "有嘴就行！3分钟学会口哨，这回真能吹一辈子！",
+        "url": "https://www.bilibili.com/video/BV1Bx4y1X7FC",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "单项技能",
+        "analysis": "口哨是明确技能，低门槛和短时承诺降低心理负担。",
+        "transfer": "把抽象学习落到可执行动作。",
+        "boundary": "“有嘴就行”“一辈子”是原作口气，不作普适保证。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1qDAbeGETw",
+        "title": "如何说话不卡壳？影视飓风口播技巧分享！",
+        "url": "https://www.bilibili.com/video/BV1qDAbeGETw",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "具体痛点",
+        "analysis": "不卡壳比提升表达能力更可识别，口播技巧限定学习范围。",
+        "transfer": "用用户遇到的失败描述替代笼统提升。",
+        "boundary": "不能承诺消除所有紧张或语言困难。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1yY411M7tk",
+        "title": "一个场景几十个机位！节目镜头破千，多个机位怎么剪？",
+        "url": "https://www.bilibili.com/video/BV1yY411M7tk",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "复杂流程",
+        "analysis": "几十机位、镜头破千让组织难题可感，“怎么剪”明确要交付处理办法。",
+        "transfer": "只保留能解释流程复杂度的规模条件。",
+        "boundary": "内容仅为花絮时不能承诺完整多机位流程。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1yA4y1U77y",
+        "title": "关键素材被删！找不到素材？影视飓风是如何摆脱丢数据噩梦的",
+        "url": "https://www.bilibili.com/video/BV1yA4y1U77y",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "风险排查",
+        "analysis": "素材被删是具体损失，“如何摆脱”将经历转成数据管理方法。",
+        "transfer": "从真实故障到可执行预防，保留问题的对象。",
+        "boundary": "备份方法不能保证永不丢失，标题也不能扩大为零风险。"
+      }
+    ],
+    "templates": [
+      "【目标用户】如何完成【具体任务】？",
+      "总在【环节】卡住？先做好【关键步骤】",
+      "【复杂条件】下，【任务】到底怎么做？",
+      "遇到【真实故障】之后，我们这样整理【流程】"
+    ],
+    "weak_example": "三个技巧让你成为剪辑大神",
+    "weak_diagnosis": "结果无限扩大，三个只是结构，没有说明解决哪个剪辑问题。",
+    "demonstration_brief": "内容确实演示两个机位如何同步声音、切换画面；不教调色与商业接单。",
+    "demonstration_title": "两个机位怎么剪？先同步声音，再切画面",
+    "validation": [
+      "看完能做什么？",
+      "内容有相应步骤吗？",
+      "数字、速成与效果是否有依据？"
+    ],
+    "adjacent_method": "仅复盘一次制作而不教可复现方法→M07；介绍收费课交付→M10；教概念原理→M02。",
+    "reference": "title-methods/m04.md"
+  },
+  {
+    "id": "M05",
+    "name": "挑战与综艺：让玩法本身产生期待",
+    "promise": "观看参与者在规则和限制内行动，并等待选择、冲突或输赢结果。",
+    "entry_conditions": [
+      "玩法、限制、参与者和判定方式至少在内容里成立。",
+      "娱乐体验可无输赢，但此时不能硬套胜者奖金或淘汰机制。"
+    ],
+    "analysis_steps": [
+      "用一句话解释怎么玩；去掉奖金后仍应知道在做什么。",
+      "选主张力来源：阵营对抗、资源差异、随机任务或外部评价。",
+      "从人数、预算、时间、奖励中只选真正改变玩法的条件。",
+      "保留结局或意外即可，不能把全部对象藏成“他们竟然这样”。"
+    ],
+    "branches": [
+      "阵营对抗：参与者与规则带来竞争。",
+      "资源差异：不同预算如何影响同一任务。",
+      "随机任务：不可预期的输入如何被执行。",
+      "外部评价：真实观众的反应成为未知结果。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1WQzuYqEun",
+        "title": "巅峰对决！100人公司捉迷藏，胜者瓜分9万元！影视飓风破产团建8.0",
+        "url": "https://www.bilibili.com/video/BV1WQzuYqEun",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "阵营对抗",
+        "analysis": "100人捉迷藏让玩法立即成立，9万元明确奖励，系列名承接老观众。",
+        "transfer": "先讲可想象的游戏，再用规模或代价加强。",
+        "boundary": "不复制奖金与人数；新系列没有必要硬加8.0。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV17E421u7NC",
+        "title": "1万元vs10万元，影视飓风员工短片挑战！",
+        "url": "https://www.bilibili.com/video/BV17E421u7NC",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "资源差异",
+        "analysis": "同为短片任务，1万与10万构成可理解的资源不对称。",
+        "transfer": "在共同目标下比较真实约束。",
+        "boundary": "预算不同不直接等于质量高低，内容要有作品或过程。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1ya411W77z",
+        "title": "顶级离谱随机短片挑战！抽到什么拍什么！",
+        "url": "https://www.bilibili.com/video/BV1ya411W77z",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "随机任务",
+        "analysis": "抽到什么拍什么用口语直接交代规则，离谱来自任务未知而非空泛形容词。",
+        "transfer": "将随机输入与必须完成的动作连接。",
+        "boundary": "随机机制不存在时不能只把选题称为随机。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1XP4y1Q7NJ",
+        "title": "尬穿地心！在2㎡不到的电梯里，请纯路人评价我们拍的电梯广告",
+        "url": "https://www.bilibili.com/video/BV1XP4y1Q7NJ",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "外部评价",
+        "analysis": "狭小电梯、纯路人、评价电梯广告共同构成具体处境，尴尬不是孤立情绪词。",
+        "transfer": "用真实观看者与现场约束形成反馈悬念。",
+        "boundary": "不把安排好的演员反应说成纯路人。"
+      }
+    ],
+    "templates": [
+      "【参与者】在【真实限制】下挑战【任务】，谁能成功？",
+      "【资源A】VS【资源B】，完成同一个【任务】会怎样？",
+      "抽到【随机输入】就要【行动】，这次能完成吗？",
+      "请【真实评价者】看【作品】，他们会怎么说？"
+    ],
+    "weak_example": "十万元终极挑战，太疯狂了！",
+    "weak_diagnosis": "知道花钱，不知道挑战什么。",
+    "demonstration_brief": "四位同事各抽一个真实主题，用同样的手机拍一分钟短片，最后共同放映；无奖金。",
+    "demonstration_title": "四个人抽四个主题，用同一部手机能拍出什么短片？",
+    "validation": [
+      "玩法能一句话说清吗？",
+      "人数预算是否影响玩法？",
+      "随机、路人、奖金与输赢是否真实？"
+    ],
+    "adjacent_method": "无娱乐规则、主要观察条件变化→M03；回顾制作安排与花费→M07。",
+    "reference": "title-methods/m05.md"
+  },
+  {
+    "id": "M06",
+    "name": "纪实与人物：用具体处境兑现进入现场的价值",
+    "promise": "进入观众平时接触不到的现场，理解真实人物、行动或行业处境。",
+    "entry_conditions": [
+      "有真实到访、拍摄、采访或持续观察材料。",
+      "主体是现实中的人和行动；可只讲一次进入，不能自动代表整个行业。"
+    ],
+    "analysis_steps": [
+      "找观众平时进不去或看不到的部分：工作环节、日常选择、判断经验或难以拍到的对象。",
+      "区分人物对话、处境观察、行动成果、持续追踪。",
+      "人物身份与行程数字只有解释看点时保留，不让资历和花费取代问题。",
+      "结果可提前给出，过程、证据与人物选择本身仍能支撑观看。"
+    ],
+    "branches": [
+      "行业处境：对象背后的具体风险、利益或选择。",
+      "人物主问题：用一个普通人也关心的问题组织访问。",
+      "行动成果：先公布拍到了什么，再让过程证明来之不易。",
+      "专业眼光：让职业经验与具体对象相遇。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV17E896RE5G",
+        "title": "非洲淘金，一场黄金背后的生死赌局。",
+        "url": "https://www.bilibili.com/video/BV17E896RE5G",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "行业处境",
+        "analysis": "淘金明确行业与行动，生死赌局给处境判断，观众期待理解代价。",
+        "transfer": "找真实处境而非泛称探秘某国。",
+        "boundary": "危险必须有依据，不把整片大陆概括成同一境遇。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV14XLq64EQf",
+        "title": "关于“活着”，我们问了问余华",
+        "url": "https://www.bilibili.com/video/BV14XLq64EQf",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "人物主问题",
+        "analysis": "“活着”是普通人能进入的议题，余华与“问了问”交代真实对话方式。",
+        "transfer": "以一个具体议题组织人物访问。",
+        "boundary": "没有直接访问不能写我们问了；名字不能代替内容。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV17M4y1n7KB",
+        "title": "飞越5000公里，在海上漂了11天，我们拍到了鲸鱼！",
+        "url": "https://www.bilibili.com/video/BV17M4y1n7KB",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "行动成果",
+        "analysis": "飞行与海上11天说明追踪过程，拍到鲸鱼直接公布成果。",
+        "transfer": "保留最能解释行动难度的一项条件，成果不用一律藏住。",
+        "boundary": "行程不是观看价值的替代；不能把一次偶遇写成长期追踪。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1QEgZ6rEGj",
+        "title": "和解剖了4000具尸体的法医，一起看了影片中的尸体...",
+        "url": "https://www.bilibili.com/video/BV1QEgZ6rEGj",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "专业眼光",
+        "analysis": "法医经验与电影尸体相遇，标题把身份转成观察角度，而非仅罗列履历。",
+        "transfer": "让专业人士对一个观众熟悉的对象作判断。",
+        "boundary": "原作资历数字为自述，不移植，也不把看片当现实鉴定。"
+      }
+    ],
+    "templates": [
+      "走进【具体现场】，我们看到了【真实处境】",
+      "关于【具体议题】，我们问了问【实际受访者】",
+      "经过【真实行动条件】，我们拍到了【对象】",
+      "和【真实职业身份】一起，看【具体对象】有哪些不同"
+    ],
+    "weak_example": "探秘神秘行业，太震撼了",
+    "weak_diagnosis": "行业、人物与具体环节全部缺失。",
+    "demonstration_brief": "真实跟拍一位钟表修理师一天，拍到他判断故障、拆解和交付；没有行业调查。",
+    "demonstration_title": "跟拍钟表修理师一天，他怎么判断一块表坏在哪？",
+    "validation": [
+      "实际进入或采访成立吗？",
+      "范围是否从一次观察扩大为行业结论？",
+      "风险与资历是否经过支持？"
+    ],
+    "adjacent_method": "主要教职业操作→M04；主要讲本团队制作→M07；纯旅行成片→M08。",
+    "reference": "title-methods/m06.md"
+  },
+  {
+    "id": "M07",
+    "name": "创作幕后：成果、难题与取舍相连接",
+    "promise": "让观众知道一个具体作品如何被做成，或团队如何处理真实工作难题。",
+    "entry_conditions": [
+      "有制作过程、方案比较、协作记录或工作流材料。",
+      "先有能被识别的成果或问题，幕后不能只等于我们很辛苦。"
+    ],
+    "analysis_steps": [
+      "指出观众看得到的作品效果、团队任务或流程结果。",
+      "找到真正的难点：能力缺口、资源限制、协作规模或具体技术实现。",
+      "选择制作解法、工具补缺、流程组织或效果反推分支。",
+      "判断内容是复盘经历还是教可跟做的方法，决定用怎么做成或怎么学会。"
+    ],
+    "branches": [
+      "商业制作：创意与交付之间的组织。",
+      "工具补缺：实际工作卡点促成工具与成果。",
+      "流程组织：规模如何改变协作与管理。",
+      "效果反推：从作品或镜头进入制作方法。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1VK411a7na",
+        "title": "800w粉丝，我们是如何在B站做商单视频的？",
+        "url": "https://www.bilibili.com/video/BV1VK411a7na",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "商业制作",
+        "analysis": "粉丝规模交代阶段，“如何做商单”指向创意与商业交付的关系。",
+        "transfer": "把商业任务转成具体制作与协作问题。",
+        "boundary": "不借用其规模，也不从标题推断收入和客户内幕。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV164421c7Xs",
+        "title": "不会画画也能出分镜？我们给自己做了个画分镜的AI",
+        "url": "https://www.bilibili.com/video/BV164421c7Xs",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "工具补缺",
+        "analysis": "不会画画是实际门槛，出分镜是结果，做AI是解决过程而非唯一看点。",
+        "transfer": "先写用户跨过什么门槛，再决定是否需要写我做了。",
+        "boundary": "上传代码不自动证明作者归属；能出图不代表能完成全部专业分镜。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV13QzbYuEWr",
+        "title": "1年150期视频？影视飓风2024工作流分享！",
+        "url": "https://www.bilibili.com/video/BV13QzbYuEWr",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "流程组织",
+        "analysis": "一年150期让生产组织问题可感，工作流分享交代内容交付。",
+        "transfer": "从规模背后的稳定流程提炼观看理由。",
+        "boundary": "不能将团队经验写成所有人都能达到同样产量。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1qc411v7e7",
+        "title": "独家揭秘！Apple 新春大片是怎么拍的？",
+        "url": "https://www.bilibili.com/video/BV1qc411v7e7",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "效果反推",
+        "analysis": "具体新春大片提供前台成果，“怎么拍”将注意转到制作。",
+        "transfer": "先有观众识别的效果，再追问实现。",
+        "boundary": "独家需真实；无法接触制作材料就不承诺揭秘。"
+      }
+    ],
+    "templates": [
+      "【具体作品／镜头】是怎么做出来的？",
+      "不会【技能】，还能完成【具体创作任务】吗？",
+      "【真实生产规模】背后，我们如何组织【流程】？",
+      "在【真实限制】下完成【作品】，我们做了哪些取舍？"
+    ],
+    "weak_example": "爆肝做了一个工具，太强了",
+    "weak_diagnosis": "只交代劳动和作者，工具解决的制作问题缺失。",
+    "demonstration_brief": "作者确实开发了从台词生成分镜草图的原型，只能生成粗略画面，视频讲开发取舍。",
+    "demonstration_title": "不会画画，怎么把台词变成分镜草图？这个原型的制作过程",
+    "validation": [
+      "成果和困难是否都可指认？",
+      "原型、可用与正式发布是否分清？",
+      "复盘是否被误写成完整教程？"
+    ],
+    "adjacent_method": "用户可照做的完整步骤→M04；工具上线与售卖→M10；只给成片→M08。",
+    "reference": "title-methods/m07.md"
+  },
+  {
+    "id": "M08",
+    "name": "视觉与声音作品：对象、视角和观看情境",
+    "promise": "画面、声音、节奏与氛围本身就是交付，不必伪装成知识或选购结论。",
+    "entry_conditions": [
+      "内容的主要价值确实在成片、样片或声音体验。",
+      "评估标题是否需要独立识别：熟悉栏目可克制，陌生作品通常需补对象或视角。"
+    ],
+    "analysis_steps": [
+      "先确认最值得看的对象、拍摄视角或声音情境。",
+      "区分旅行作品题名、陌生视角、情境功能和载体呈现。",
+      "只保留能影响观看体验的技术信息，如微距、画幅、声音形式，避免规格堆砌。",
+      "留白时核对封面能否交代对象；没有封面信息就减少代词与空泛氛围句。"
+    ],
+    "branches": [
+      "作品题名：地点与到访作为克制邀请。",
+      "陌生视角：常见地方被新的尺度或机位重新看见。",
+      "声音情境：明确适合怎样的聆听体验。",
+      "载体呈现：画幅或播放条件是作品体验的一部分。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1xVY26dEbz",
+        "title": "去了一趟山西。",
+        "url": "https://www.bilibili.com/video/BV1xVY26dEbz",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "作品题名",
+        "analysis": "去了一趟与地点构成轻声邀请，把主要表达空间留给作品。",
+        "transfer": "画面足够明确时允许简短陈述。",
+        "boundary": "并非所有新账号只写地点就有观看理由。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1vkVB6NEuR",
+        "title": "“超微距”下的瑞士长什么样？",
+        "url": "https://www.bilibili.com/video/BV1vkVB6NEuR",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "陌生视角",
+        "analysis": "瑞士与超微距形成熟悉地点和陌生尺度的组合，疑问聚焦看见什么。",
+        "transfer": "选择真正改变画面认知的视角。",
+        "boundary": "没有超微距实拍不使用该条件，也不承诺科学解释。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV12CnRzPEJs",
+        "title": "【杜比全景声】我们收集了10小时的伴眠音…",
+        "url": "https://www.bilibili.com/video/BV12CnRzPEJs",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "声音情境",
+        "analysis": "伴眠音说明聆听情境，10小时指采集行动；杜比全景声交代呈现方式。",
+        "transfer": "从声音的实际用途和采集对象建立入口。",
+        "boundary": "采集10小时不等于成片10小时；伴眠不等于治疗失眠。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1ZmLBzZEEj",
+        "title": "首次尝试19.5:9画幅，用新疆样片填满你的手机！",
+        "url": "https://www.bilibili.com/video/BV1ZmLBzZEEj",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "载体呈现",
+        "analysis": "19.5:9画幅与填满手机相连接，规格被转为明确观看方式。",
+        "transfer": "技术参数只有改变体验时才进入标题。",
+        "boundary": "实际画幅与可用播放条件需核实，不泛称适配所有设备。"
+      }
+    ],
+    "templates": [
+      "去了一趟【真实地点】。",
+      "从【真实视角／尺度】看，【对象】长什么样？",
+      "我们收集了【真实对象／声音】，送给【观看情境】",
+      "用【真实呈现方式】，看一段【具体作品】"
+    ],
+    "weak_example": "太治愈了！这一切美到窒息",
+    "weak_diagnosis": "没有对象，只有反应，难以知道点开看什么。",
+    "demonstration_brief": "内容是一段雨夜窗边环境声与固定镜头，不提供睡眠疗效证明。",
+    "demonstration_title": "雨夜的窗边，听一会儿雨声。",
+    "validation": [
+      "观看本身是否能兑现？",
+      "标题是否把采集时长写成成片时长？",
+      "短题名是否有封面和栏目支撑？"
+    ],
+    "adjacent_method": "讲如何拍摄→M04或M07；解释画面现象→M02；追踪真实人物行动→M06。",
+    "reference": "title-methods/m08.md"
+  },
+  {
+    "id": "M09",
+    "name": "剧情短片：异常关系、设定与后果",
+    "promise": "让观众进入一个人物关系或异常设定，等待事件如何展开。",
+    "entry_conditions": [
+      "内容是实际剧情或概念短片，标题冲突真实存在。",
+      "先区分剧情包装、独立片名和展映信息；不能把片名都改成营销问句。"
+    ],
+    "analysis_steps": [
+      "找出事件里的正常关系与异常变化，谁与谁的关系出了问题。",
+      "只保留理解冲突必需的角色和行动，给观众一个可进入的处境。",
+      "选择关系冲突、逻辑悖论、观众代入或作品题名分支。",
+      "留情节后果而非藏掉全部对象；若夸张标题比实际情节更戏剧化，就降低承诺。"
+    ],
+    "branches": [
+      "关系冲突：熟悉关系遭遇异常对象或行为。",
+      "逻辑悖论：事件违背常规，邀请追查原因。",
+      "观众代入：把选择或风险交给观看者想象。",
+      "独立题名：保留作品的情感与辨识，不抢先解释剧情。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|一步一部Rolling|BV1n8411v7ps",
+        "title": "【短片】女友出轨AI，我该接受吗…？",
+        "url": "https://www.bilibili.com/video/BV1n8411v7ps",
+        "brand": "一步一部Rolling",
+        "platform": "bilibili",
+        "branch": "关系冲突",
+        "analysis": "女友与AI形成现实关系和技术对象的交叉，接受与否把事件变成选择。",
+        "transfer": "在真实剧情内找难以处理的关系变化。",
+        "boundary": "不能把AI题材都写成出轨，冲突需在片中成立。"
+      },
+      {
+        "record_id": "bilibili|一步一部Rolling|BV1d54y1K7g9",
+        "title": "【短片】｜男子竟然撞死了自己？！",
+        "url": "https://www.bilibili.com/video/BV1d54y1K7g9",
+        "brand": "一步一部Rolling",
+        "platform": "bilibili",
+        "branch": "逻辑悖论",
+        "analysis": "撞死自己构成因果反常，观众期待事件如何可能。",
+        "transfer": "用作品确有的逻辑异常制造主问题。",
+        "boundary": "不把正常事故改写成不存在的自我悖论。"
+      },
+      {
+        "record_id": "bilibili|一步一部Rolling|BV1ys4y1k7CA",
+        "title": "【短片】陌生人的消息，你敢接么？",
+        "url": "https://www.bilibili.com/video/BV1ys4y1k7CA",
+        "brand": "一步一部Rolling",
+        "platform": "bilibili",
+        "branch": "观众代入",
+        "analysis": "陌生消息是可想象的入口，“敢接么”邀请观众代入风险选择。",
+        "transfer": "从剧情中的一个具体动作发问。",
+        "boundary": "没有悬疑风险不靠恐惧措辞增加危险。"
+      },
+      {
+        "record_id": "bilibili|一步一部Rolling|BV1g29UB9E7C",
+        "title": "短片《再见亲人》——影视飓风出品",
+        "url": "https://www.bilibili.com/video/BV1g29UB9E7C",
+        "brand": "一步一部Rolling",
+        "platform": "bilibili",
+        "branch": "独立题名",
+        "analysis": "片名与出品信息明确这是作品发布，未强行揭露剧情。",
+        "transfer": "有独立作品身份时保留片名与必要类型信息。",
+        "boundary": "片名的具体含义不能仅凭标题补写故事。"
+      }
+    ],
+    "templates": [
+      "【关系对象】做了【片中异常行为】，我该怎么办？",
+      "【角色】竟然【真实剧情中的悖论事件】？",
+      "【片中具体选择】，你敢【行动】吗？",
+      "短片《【实际片名】》｜【必要作品信息】"
+    ],
+    "weak_example": "全程高能！结局反转一百次",
+    "weak_diagnosis": "只有刺激保证，未给任何可进入的人物或事件。",
+    "demonstration_brief": "短片讲一位失物招领员收到自己明天才会丢失的钥匙；剧情确有时间异常。",
+    "demonstration_title": "失物招领处，收到了我明天才会丢的钥匙。",
+    "validation": [
+      "剧情里真有该冲突吗？",
+      "保留的是后果，还是把对象全藏了？",
+      "需要保留片名或展映身份吗？"
+    ],
+    "adjacent_method": "现实人物和现场→M06；真实职业观点→M12；广告剧情还需M10核对商品交付。",
+    "reference": "title-methods/m09.md"
+  },
+  {
+    "id": "M10",
+    "name": "商品与课程：场景、机制与交付形成闭环",
+    "promise": "让用户理解给谁用、在什么情境解决什么问题，以及实际能得到什么。",
+    "entry_conditions": [
+      "有真实产品或课程资料，区分功能存在、演示结果和用户长期效果。",
+      "商业目标与表层观看理由分开：日常对白可以承载广告，但不自动证明销售效果。"
+    ],
+    "analysis_steps": [
+      "先锁定使用场景和问题，不从品牌口号开始。",
+      "找产品机制与用途的对应关系，课程则找起点、内容与可展示作业。",
+      "选择功能—流程、发布—门槛、课程—交付或材质—反常问题。",
+      "判断对象需不需要前置；剧情短句依赖画面时，文案必须能补回商品信息。"
+    ],
+    "branches": [
+      "功能与流程：结构特征怎样改变使用方式。",
+      "正式发布：上线的是哪项可用能力。",
+      "课程交付：针对谁，具体教什么、产出什么。",
+      "材质反差：陌生搭配引出真实产品机制。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|飓风商店MediaStore|BV18e4y147SV",
+        "title": "模块化读卡坞，自由定义读卡流程！",
+        "url": "https://www.bilibili.com/video/BV18e4y147SV",
+        "brand": "飓风商店MediaStore",
+        "platform": "bilibili",
+        "branch": "功能与流程",
+        "analysis": "模块化是结构，定义读卡流程是用途，两者形成连接。",
+        "transfer": "把参数翻译为用户可以调整的操作。",
+        "boundary": "自由不等于无限兼容，接口和适用范围仍需说明。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1HZ4y1i7Ae",
+        "title": "分镜问题大拯救！闪电分镜多平台正式上线",
+        "url": "https://www.bilibili.com/video/BV1HZ4y1i7Ae",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "发布与门槛",
+        "analysis": "分镜问题是具体需求，多平台正式上线表达交付状态。",
+        "transfer": "成果发布要说解决哪项任务，不只报版本号。",
+        "boundary": "原型不能改写成正式上线，多平台需真实。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|ss190402215",
+        "title": "【影视飓风】只看8节课，用iPhone拍出电影感",
+        "url": "https://www.bilibili.com/cheese/play/ss190402215",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "课程交付",
+        "analysis": "8节是课程单元，iPhone与电影感给出工具和目标。",
+        "transfer": "写清起点、使用工具、所教结果，让读者知道买什么。",
+        "boundary": "课程节数不等于所有人学会的时长，电影感需用样片或课程内容承接。"
+      },
+      {
+        "record_id": "bilibili|飓风商店MediaStore|BV1Q3Tv6TEdx",
+        "title": "用内裤的材质做短袖，这对吗？！",
+        "url": "https://www.bilibili.com/video/BV1Q3Tv6TEdx",
+        "brand": "飓风商店MediaStore",
+        "platform": "bilibili",
+        "branch": "材质反差",
+        "analysis": "内裤材质与短袖的组合违背常见分类，疑问引向材料与用途。",
+        "transfer": "只在真实材料跨用能被解释时使用反差。",
+        "boundary": "不能从这个题目推断材质性能；功能需独立依据。"
+      }
+    ],
+    "templates": [
+      "【使用场景】总遇到【问题】？【产品】这样处理",
+      "【具体需求】有了新办法：【产品】正式【交付状态】",
+      "从【起点】到【可展示作业】，这门课教什么？",
+      "把【真实材料／结构】用到【产品】上，会怎样？"
+    ],
+    "weak_example": "神器上线，效率提升十倍！",
+    "weak_diagnosis": "不知道给谁用，也没有十倍效果证据。",
+    "demonstration_brief": "工具已上线，能把访谈录音转成带时间戳的文本；尚无省时对照。",
+    "demonstration_title": "访谈录音太难回找？这个工具把时间戳和文字放在一起",
+    "validation": [
+      "功能、状态、价格与交付真实？",
+      "演示是否被扩大为普适收益？",
+      "对白标题离开画面后，产品信息在哪里补足？"
+    ],
+    "adjacent_method": "中立上手比较→M01；免费操作教学→M04；售后兑换和活动通知→M11。",
+    "reference": "title-methods/m10.md"
+  },
+  {
+    "id": "M11",
+    "name": "服务、活动与声明：正确理解与行动优先",
+    "promise": "让用户知道发生了什么、是否与自己有关，以及下一步怎么做。",
+    "entry_conditions": [
+      "主要任务是告知、报名、更新、领取、服务或回应。",
+      "标题清楚比悬念更重要；声明可只明确事件，不能强行套销售或娱乐写法。"
+    ],
+    "analysis_steps": [
+      "确定对象与信息性质：买课用户、投稿者、受影响观众还是关注事件的人。",
+      "识别关键动作、入口、期限和资格；标题放最能避免误解的一项。",
+      "区分服务答疑、参与邀请、变化公告与事件声明。",
+      "将详细规则放正文，但保留会改变是否行动的条件；不把限制藏掉。"
+    ],
+    "branches": [
+      "服务答疑：先说用户遇到的实际问题。",
+      "参与邀请：明确活动对象和参与内容。",
+      "变化公告：直接交代什么要改变。",
+      "事件声明：准确点明事件，不加娱乐化悬念。"
+    ],
+    "cases": [
+      {
+        "record_id": "douyin|飓风课堂|7555737881172659499",
+        "title": "影视飓风知识服务旗舰店：抖音买课后如何去上课？ 如您是2025年9月28日前购买的课程无法兑换，因为上课小程序迁移缘故，请申请退款后重拍，再使用订单号兑换即可",
+        "url": "https://www.douyin.com/video/7555737881172659499",
+        "brand": "飓风课堂",
+        "platform": "douyin",
+        "branch": "服务答疑",
+        "analysis": "开头明确抖音购课后的上课问题，后文补迁移与兑换条件。",
+        "transfer": "让遇到同一问题的人立即识别，并把分流条件放正文。",
+        "boundary": "这是长发布文案，不将全文视为短标题；不能照搬过期服务规则。"
+      },
+      {
+        "record_id": "bilibili|亿点点不一样|BV1Bd4y1R7fC",
+        "title": "1个月，10万奖品，让我们来一场全球云彩收集大挑战！",
+        "url": "https://www.bilibili.com/video/BV1Bd4y1R7fC",
+        "brand": "亿点点不一样",
+        "platform": "bilibili",
+        "branch": "参与邀请",
+        "analysis": "时间、奖品与云彩收集共同构成活动内容，参与者知道征集什么。",
+        "transfer": "优先交代活动任务，奖品与期限服务于参与决定。",
+        "boundary": "金额与期限均为当时原作信息，不代表现在仍有效。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1hp4y1f7B5",
+        "title": "影视飓风将停止制作25帧视频",
+        "url": "https://www.bilibili.com/video/BV1hp4y1f7B5",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "变化公告",
+        "analysis": "停止制作25帧视频直接点明改变，观众知道公告范围。",
+        "transfer": "明确行为变化与对象，不用“我们决定了”隐藏事项。",
+        "boundary": "停止25帧不等于停更，改写不能扩大范围。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV16YC3BrEDz",
+        "title": "关于影视飓风近期舆情",
+        "url": "https://www.bilibili.com/video/BV16YC3BrEDz",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "事件声明",
+        "analysis": "关于近期舆情准确表明回应性质，没有用反转与爆料包装。",
+        "transfer": "敏感说明保持对象与事项清楚，正文提供事实。",
+        "boundary": "不从标题推断争议真伪，也不编造声明结论。"
+      }
+    ],
+    "templates": [
+      "【目标用户】如何完成【报名／兑换／上课】？",
+      "【活动】征集【具体内容】，请在【真实期限】前【动作】",
+      "关于【明确对象】的【具体变化／更新】",
+      "关于【具体事件】的说明"
+    ],
+    "weak_example": "最后机会！再不看就来不及了",
+    "weak_diagnosis": "没有告诉谁、什么事、什么时候截止。",
+    "demonstration_brief": "摄影比赛报名周五18点截止，提交三张照片和一段说明；资格规则见正文。",
+    "demonstration_title": "摄影比赛周五18点截止：报名需要准备什么？",
+    "validation": [
+      "对象与下一步是否清楚？",
+      "期限资格会不会改变行动？",
+      "压缩是否扩大或误导变化范围？"
+    ],
+    "adjacent_method": "主要卖课程与产品→M10；主问题是个人观点讨论→M12；粉丝栏目交流→A01。",
+    "reference": "title-methods/m11.md"
+  },
+  {
+    "id": "M12",
+    "name": "观点与创作讨论：让议题落到具体处境",
+    "promise": "围绕真实变化、作品或选择给出有依据的思考，让观众进入讨论。",
+    "entry_conditions": [
+      "内容确有观点、分析或经历依据，而非只有情绪。",
+      "区分已发生事实、条件假设与个人判断，标题不能悄悄互换。"
+    ],
+    "analysis_steps": [
+      "找具体受影响的人或选择，而非只写时代变了。",
+      "把议题写成矛盾：技术能力与个人价值、兴趣与职业、分发变化与创作选择。",
+      "选择个人处境、双向取舍、条件影响或案例评价分支。",
+      "确定内容能展开哪一层，避免标题承诺宏大结论而视频只有感想。"
+    ],
+    "branches": [
+      "个人处境：趋势落到我或某群体。",
+      "双向取舍：两种价值各有真实代价。",
+      "条件影响：假如规则变化，会影响什么。",
+      "案例评价：用具体作品讨论评价标准。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1QMSjBREzr",
+        "title": "AI可以取代我，那我的意义是？",
+        "url": "https://www.bilibili.com/video/BV1QMSjBREzr",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "个人处境",
+        "analysis": "AI取代能力与个人意义并置，让技术议题落到创作者处境。",
+        "transfer": "用真实群体面对的选择承接宏观趋势。",
+        "boundary": "不能把可取代的假设写成所有职业已被替代。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1EZ4y1T7AD",
+        "title": "【Vlog】兴趣变成职业真的好吗？",
+        "url": "https://www.bilibili.com/video/BV1EZ4y1T7AD",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "双向取舍",
+        "analysis": "兴趣与职业并非简单好坏，问题邀请看经历中的收益与代价。",
+        "transfer": "在真正存在两难时，保留选择的开放性。",
+        "boundary": "没有个人经历可用他人访谈或分析，不擅自代入我。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1mr4y1f7hr",
+        "title": "次数变时长？如果B站改版，对我们会有什么影响？",
+        "url": "https://www.bilibili.com/video/BV1mr4y1f7hr",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "条件影响",
+        "analysis": "先交代次数变时长的规则焦点，再用如果限定影响推演。",
+        "transfer": "把条件与受影响对象写在一起。",
+        "boundary": "假设不当作已实施政策，旧讨论也不冒充当前规则。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1qG4y187fq",
+        "title": "热门广告鉴定4.0：广告要走心还是要洗脑！？预算千万，如何交出满分答卷？",
+        "url": "https://www.bilibili.com/video/BV1qG4y187fq",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "案例评价",
+        "analysis": "走心与洗脑提出创作评价冲突，广告案例给讨论具体对象。",
+        "transfer": "让抽象标准落在可分析的作品选择。",
+        "boundary": "预算与满分是原作话语，不能移植为客观评分保证。"
+      }
+    ],
+    "templates": [
+      "如果【真实可能变化】发生，【具体群体】怎么办？",
+      "【惯常选择】一定更好吗？这是我们经历后的判断。",
+      "【方案A】还是【方案B】？从【具体案例】看取舍",
+      "面对【具体处境】，我们该如何理解【核心问题】？"
+    ],
+    "weak_example": "AI时代，所有人都该觉醒了",
+    "weak_diagnosis": "群体和行动无限扩大，只有态度，没有议题。",
+    "demonstration_brief": "内容讨论摄影师使用AI选片后的责任与判断，有实际筛选案例，无行业就业数据。",
+    "demonstration_title": "AI能替我选照片，那最后的判断该由谁负责？",
+    "validation": [
+      "事实、条件与观点分清了吗？",
+      "具体案例能支撑讨论范围吗？",
+      "是否把个人立场写成全民共识？"
+    ],
+    "adjacent_method": "解释技术原理→M02；以实验检验判断→M03；直接公告变化→M11。",
+    "reference": "title-methods/m12.md"
+  },
+  {
+    "id": "A01",
+    "name": "问答与栏目：具体问题承担入口，栏目身份承担导航",
+    "promise": "回答观众关心的一个或一组实际问题，或邀请其参与明确讨论。",
+    "entry_conditions": [
+      "已有真实问题、回应内容或明确征询事项。",
+      "栏目名和粉丝里程碑只帮助已有观众识别，不替代问题。"
+    ],
+    "analysis_steps": [
+      "从整期内容中选一个有实质回答的问题，不挑与内容关系很弱的刺激词。",
+      "区分里程碑答疑、关系坦白或意见征集。",
+      "保留栏目导航，陌生观众仍应能看懂本期问什么。",
+      "问题涉及经营或个人情况时，不能把未给出的答案提前写成事实。"
+    ],
+    "branches": [
+      "里程碑答疑：问题在前，系列在后。",
+      "关系与经营坦白：具体议题组成同一期回应。",
+      "意见征集：让用户知道需要对什么发表意见。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV1kZWX62ENY",
+        "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
+        "url": "https://www.bilibili.com/video/BV1kZWX62ENY",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "里程碑答疑",
+        "analysis": "最后一期提出需要回答的具体问题，Q&A与1800万粉说明栏目节点。",
+        "transfer": "保留真实问题与栏目身份的分工。",
+        "boundary": "不能为点击虚构停更，也不借用原作者里程碑。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1vv41157qQ",
+        "title": "婚后首个坦白局！公司营业状况？会让孩子做自媒体吗？",
+        "url": "https://www.bilibili.com/video/BV1vv41157qQ",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "具体议题",
+        "analysis": "婚后提供人物关系背景，营业状况和孩子做自媒体是本期问题对象。",
+        "transfer": "多问题栏目可选少量相关议题，不必只剩Q&A三个字。",
+        "boundary": "未公开的答复不能从题目中推断。"
+      },
+      {
+        "record_id": "bilibili|飓多多StormCrew|BV16V411P7wf",
+        "title": "大家帮忙看看，「华为Mate X5」哪个颜色好？",
+        "url": "https://www.bilibili.com/video/BV16V411P7wf",
+        "brand": "飓多多StormCrew",
+        "platform": "bilibili",
+        "branch": "意见征集",
+        "analysis": "Mate X5与颜色让用户知道需要参与哪项选择。",
+        "transfer": "互动标题要给可回答的对象和维度。",
+        "boundary": "没有实际互动需求，不用大家帮忙假装征求意见。"
+      }
+    ],
+    "templates": [
+      "【本期真实问题】？【栏目／本期对象】答疑",
+      "【真实关系或阶段】后的问答：聊聊【具体议题】",
+      "【明确对象】的【选择维度】，你会怎么选？"
+    ],
+    "weak_example": "你们想知道的都在这里",
+    "weak_diagnosis": "没有问题对象，陌生观众无法判断是否相关。",
+    "demonstration_brief": "作者收集了观众关于手机拍摄、收音和素材备份的问题，本期主要回答收音。",
+    "demonstration_title": "手机拍视频怎么收音？这期集中回答你们的问题",
+    "validation": [
+      "本期真有回答吗？",
+      "栏目身份是否压过实际问题？",
+      "是否虚构危机或未公开结论？"
+    ],
+    "adjacent_method": "实际给完整操作步骤→M04；核心是服务问题→M11；实际主要分享观点→M12。",
+    "reference": "title-methods/a01.md"
+  },
+  {
+    "id": "A02",
+    "name": "生活与关系：真实节点、场景和人物变化",
+    "promise": "通过真实人物在具体生活情境中的行动与关系，提供陪伴、共鸣或观察。",
+    "entry_conditions": [
+      "有真实生活片段或人物关系材料，且确实以此为主要内容。",
+      "新观众与老观众对人物的熟悉程度不同，留白程度不能一律照搬。"
+    ],
+    "analysis_steps": [
+      "找生活节点、空间、关系或一件真实行动，不从情绪套话开始。",
+      "判断观众是否认识人物；不认识时补一个可理解的场景或动作。",
+      "区分生活节点、空间观察、关系行动。",
+      "商业植入存在时另查M10，不能仅凭日常标题断定没有推广。"
+    ],
+    "branches": [
+      "生活节点：关系或阶段发生变化。",
+      "空间观察：真实生活空间提供可见细节。",
+      "关系行动：人物为谁做了什么。"
+    ],
+    "cases": [
+      {
+        "record_id": "bilibili|影视飓风|BV17y4y1e745",
+        "title": "【Vlog】领证后的我们",
+        "url": "https://www.bilibili.com/video/BV17y4y1e745",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "生活节点",
+        "analysis": "领证后的我们给出关系变化，观看理由依赖人物关注与生活片段。",
+        "transfer": "保留真实节点，不硬加技巧和成长收益。",
+        "boundary": "不能自行填入婚后矛盾或情感结论。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1PJ41157h5",
+        "title": "【RoomTour】在杭州4000元租到130平的房子，居然还有猫卧室？",
+        "url": "https://www.bilibili.com/video/BV1PJ41157h5",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "空间观察",
+        "analysis": "租金、面积与猫卧室共同勾勒可观察空间，RoomTour明确观看类型。",
+        "transfer": "空间条件与一个特殊细节形成入口。",
+        "boundary": "地租与面积为当时原文，不代表当前行情；不能把个案写成普遍租房建议。"
+      },
+      {
+        "record_id": "bilibili|影视飓风|BV1iT411Z7d9",
+        "title": "走，带着神秘大礼去B站拜年！",
+        "url": "https://www.bilibili.com/video/BV1iT411Z7d9",
+        "brand": "影视飓风",
+        "platform": "bilibili",
+        "branch": "关系行动",
+        "analysis": "带大礼去拜年有明确动作、关系对象和节日情境，礼物内容可保留。",
+        "transfer": "悬念放在具体行动中的一项未知，其他信息尽量清楚。",
+        "boundary": "没有真实准备和到访，不能写已发生的拜年行动。"
+      }
+    ],
+    "templates": [
+      "【真实生活节点】后的【人物／关系】",
+      "【真实生活空间】里，最特别的是【可见细节】",
+      "带着【真实物件／任务】，去找【实际关系对象】"
+    ],
+    "weak_example": "日子闪闪发光，生活自有答案",
+    "weak_diagnosis": "只有泛化情绪，没有人物、场景或实际内容。",
+    "demonstration_brief": "作者搬到新工作室，拍了第一天整理桌面与设备的过程，无装修教程。",
+    "demonstration_title": "搬进新工作室的第一天，我们先把桌子整理好。",
+    "validation": [
+      "关系、经历和生活节点是否真实？",
+      "陌生观众能知道看什么吗？",
+      "是否用虚构冲突或收益替换日常观察？"
+    ],
+    "adjacent_method": "主要是广告交付→M10；主要是作品影像→M08；主要是现场行业观察→M06。",
+    "reference": "title-methods/a02.md"
+  }
+]
