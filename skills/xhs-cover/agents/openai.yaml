@@ -1,6 +1,6 @@
 interface:
   display_name: "小红书·封面"
-  short_description: "按内容类型选择居中或左对齐版式，制作带真实头像落款的Apple风小红书封面"
+  short_description: "方法、数量、视觉、观点经验、游戏与工具实测六类封面，共用Apple风与头像落款"
   icon_large: "./assets/preview-apple.png"
   default_prompt: "Use $xhs-cover to create an image with this template."
 policy:

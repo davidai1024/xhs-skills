@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书·选题"
+  short_description: "筛选近三天高赞起量、同类博主集中在发的相关热点，给出来源与跟发方案"
+  default_prompt: "使用 $xhs-topic，找最近3天同类博主在发、点赞高且突然起量的相关热点，推荐三个值得我跟发的选题并给出来源依据。"

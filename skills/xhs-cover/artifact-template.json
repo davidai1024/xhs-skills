@@ -3,5 +3,6 @@
   "kind": "image",
   "galleryKind": "imagegen",
   "reference": "assets/preview-apple.png",
-  "preview": "assets/preview-apple.png"
+  "preview": "assets/preview-apple.png",
+  "layoutFamiliesPreview": "assets/cover-families-preview.png"
 }

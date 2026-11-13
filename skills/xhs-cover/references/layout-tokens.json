@@ -40,6 +40,21 @@
       "size": 24,
       "weight": 400,
       "lineHeight": 32
+    },
+    "number": {
+      "size": 184,
+      "weight": 600,
+      "lineHeight": 200
+    },
+    "compactHeadline": {
+      "size": 64,
+      "weight": 600,
+      "lineHeight": 80
+    },
+    "compactSubtitle": {
+      "size": 32,
+      "weight": 400,
+      "lineHeight": 48
     }
   },
   "header": {
@@ -149,6 +164,165 @@
         "width": 920,
         "height": 744
       }
+    },
+    "M1": {
+      "align": "left",
+      "headlineStyle": "headline",
+      "headline": {
+        "x": 80,
+        "y": 240,
+        "width": 920,
+        "height": 216
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 488,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 640,
+        "width": 920,
+        "height": 640
+      },
+      "family": "method"
+    },
+    "N1": {
+      "family": "quantity",
+      "align": "left",
+      "number": {
+        "x": 80,
+        "y": 200,
+        "width": 920,
+        "height": 200
+      },
+      "headlineStyle": "compactHeadline",
+      "headline": {
+        "x": 80,
+        "y": 440,
+        "width": 920,
+        "height": 80
+      },
+      "subtitleStyle": "compactSubtitle",
+      "subtitle": {
+        "x": 80,
+        "y": 536,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 640,
+        "width": 920,
+        "height": 640
+      },
+      "gridExample": {
+        "columns": 3,
+        "rows": 6,
+        "gap": 12,
+        "fontSize": 25,
+        "lineHeight": 34
+      }
+    },
+    "V1": {
+      "family": "visual",
+      "align": "left",
+      "headlineStyle": "compactHeadline",
+      "headline": {
+        "x": 80,
+        "y": 216,
+        "width": 920,
+        "height": 160
+      },
+      "subtitleStyle": "compactSubtitle",
+      "subtitle": {
+        "x": 80,
+        "y": 384,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 448,
+        "width": 920,
+        "height": 832
+      },
+      "fullBleedAllowed": true
+    },
+    "O1": {
+      "align": "left",
+      "headlineStyle": "headline3",
+      "headline": {
+        "x": 80,
+        "y": 216,
+        "width": 920,
+        "height": 288
+      },
+      "subtitle": {
+        "x": 80,
+        "y": 536,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 648,
+        "width": 920,
+        "height": 632
+      },
+      "family": "opinion-experience",
+      "subtitleStyle": "compactSubtitle",
+      "visualOptional": true
+    },
+    "G1": {
+      "family": "game",
+      "align": "left",
+      "headlineStyle": "compactHeadline",
+      "headline": {
+        "x": 80,
+        "y": 216,
+        "width": 920,
+        "height": 160
+      },
+      "subtitleStyle": "compactSubtitle",
+      "subtitle": {
+        "x": 80,
+        "y": 384,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 448,
+        "width": 920,
+        "height": 832
+      },
+      "fullBleedAllowed": true
+    },
+    "T1": {
+      "family": "tool-test",
+      "align": "left",
+      "headlineStyle": "compactHeadline",
+      "headline": {
+        "x": 80,
+        "y": 216,
+        "width": 920,
+        "height": 160
+      },
+      "subtitleStyle": "compactSubtitle",
+      "subtitle": {
+        "x": 80,
+        "y": 384,
+        "width": 920,
+        "height": 48
+      },
+      "visual": {
+        "x": 80,
+        "y": 448,
+        "width": 920,
+        "height": 832
+      }
     }
   },
   "theme": "apple-editorial",
@@ -160,5 +334,6 @@
     "panel": "#F5F5F7",
     "accent": "#0071E3",
     "footer": "#86868B"
-  }
+  },
+  "schemaVersion": 4
 }

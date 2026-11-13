@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书·内容写作"
+  short_description: "基于50期内容研究，统筹文稿结构、口吻、遣词造句与文字节奏"
+  default_prompt: "使用 $xhs-writing，基于我的素材写一份连续内容稿，先选讲法和口吻，再修订选词、句式与节奏。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书·校验"
+  short_description: "按当前阶段检查内容、承诺、表达与视觉，定位问题并给出修复和复查依据"
+  default_prompt: "使用 $xhs-review，按目标读者和这次交付范围校验现有内容，区分可见问题与待验证项，给出优先修改和复查办法。"

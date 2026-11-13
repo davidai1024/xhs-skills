@@ -1,4 +1,4 @@
 interface:
   display_name: "小红书·图文介绍"
-  short_description: "把真实操作案例做成苹果风图文教程，并检查读者理解、阅读动力、审美与可复现性"
+  short_description: "先写清楚内容，再分镜制作Apple风小红书介绍图，保留真实素材与头像落款"
   default_prompt: "用 $xhs-tutorial 把这个案例做成苹果风小红书图文教程，并完成目标读者与审美评审。"

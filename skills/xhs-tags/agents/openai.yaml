@@ -1,3 +1,3 @@
 interface:
   display_name: "小红书·标签"
-  short_description: "查询真实话题与浏览量，并按话题 ID 核验相关笔记样本及数据缺口"
+  short_description: "优先筛选相关、有真实数据且热度高的话题，并逐 ID 核对同名标签与适配样本"
